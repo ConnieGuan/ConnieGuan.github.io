@@ -917,7 +917,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/Splash5.jpg);
+    background-image: url(../img/Splash3.jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -1383,6 +1383,64 @@ footer a:hover {
 
 }
 
+/* --------------------------------
+
+SCHEDULE
+
+-------------------------------- */
+.card {
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    transform: skewY(-1deg);
+}
+
+.card-title {
+    border-style: none;
+    border-width: 1px;
+    background-color: #D42880;
+    padding: 20px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    right: 40px;
+    max-width: 500px;
+}
+
+.card-block {
+    font-size: 16px;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: grey;
+}
+
+.tab-container {
+    background-color: #000;
+    padding: 30px;
+    padding-bottom: 20px;
+    transform: skewY(1deg);
+
+}
+
+.nav-tab-container {
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    bottom: 10px;
+    margin-bottom: -2px;
+}
+
+.tab-title {
+    color: white;
+    position: relative;
+    bottom: 15px;
+}
 
 /* --------------------------------
 
