@@ -461,6 +461,14 @@ a{
 	font-weight: 400;
 }
 
+.section-title-2 h2{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color:white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .section-title-parralax h2{
 		text-transform: uppercase;
 		letter-spacing: 10px;
@@ -1383,6 +1391,27 @@ footer a:hover {
 
 }
 
+.dark-section{
+  background-color: #D53B80;
+  color: white;
+}
+
+.dark-section-text{
+  color:white;
+  font-weight: 600;
+}
+
+.dark-section-header{
+  color:#D53B80;
+}
+
+.get-involved-section {
+  padding: 100px 0 100px 0;
+  background-color: #5688BF;
+  border-top: 15px double #fff;
+}
+
+
 /* --------------------------------
 
 SCHEDULE
@@ -1539,6 +1568,7 @@ SCHEDULE
 	background-color: #ffeedb;
 	border-top: 15px double #fff;
 }
+
 
 @media only screen and (max-width : 480px) {
 	.features {
