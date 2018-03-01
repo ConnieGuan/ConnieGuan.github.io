@@ -1418,6 +1418,7 @@ SCHEDULE
 .card-subtitle {
     font-size: 16px;
     color: grey;
+    font-weight: bold;
 }
 
 .tab-container {
@@ -1440,6 +1441,32 @@ SCHEDULE
     color: white;
     position: relative;
     bottom: 15px;
+}
+
+.showImg {
+    max-width: 200px;
+    max-height: auto;
+    margin: 10px;
+}
+
+.cardContent {
+    padding-left: 10px;
+}
+
+
+.inline {
+    display: inline-block;
+}
+
+@media screen and (max-width:767px){
+  .nav-tabs > li {
+    width: 100%;
+   }
+
+   .nav-tabs > .active {
+    border-bottom: 1px solid #ddd;
+    margin-right: 0;
+   }
 }
 
 /* --------------------------------
