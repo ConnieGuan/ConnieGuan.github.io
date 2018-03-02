@@ -461,6 +461,14 @@ a{
 	font-weight: 400;
 }
 
+.section-title-2 h2{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color:white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .section-title-parralax h2{
 		text-transform: uppercase;
 		letter-spacing: 10px;
@@ -1396,6 +1404,27 @@ footer a:hover {
 
 }
 
+.dark-section{
+  background-color: #D53B80;
+  color: white;
+}
+
+.dark-section-text{
+  color:white;
+  font-weight: 600;
+}
+
+.dark-section-header{
+  color:#D53B80;
+}
+
+.get-involved-section {
+  padding: 100px 0 100px 0;
+  background-color: #5688BF;
+  border-top: 15px double #fff;
+}
+
+
 /* --------------------------------
 
 SCHEDULE
@@ -1568,6 +1597,7 @@ FOOTER
 	background-color: #ffeedb;
 	border-top: 15px double #fff;
 }
+
 
 @media only screen and (max-width : 480px) {
 	.features {
@@ -2158,11 +2188,13 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
-    background: url("../img/site-hero2.jpg") no-repeat;
-    background-size: cover;
+    background: url("../img/Events/splash-2.png") no-repeat;
+    background-position: bottom right;
+    background-color: black;
+    background-size: 10$ f20%;
     height: 600px;
     width: 100%;
-    position: relative
+    position: relative;
 }
 
 .site-hero_2 .page-title {
@@ -2176,7 +2208,7 @@ FOOTER
 }
 
 .site-hero_2 h2{
-		color: #777;
+		color: #fff;
     text-transform: uppercase;
     font-size: 25px;
     line-height: 2;
