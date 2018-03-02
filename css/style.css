@@ -2159,6 +2159,16 @@ SCHEDULE
 -------------------------------- */
 
 .site-hero_2 {
+    background: url("../img") no-repeat;
+    background-position: bottom right;
+    background-color: black;
+    background-size: 10$ f20%;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.site-hero_Events {
     background: url("../img/Events/splash-2.png") no-repeat;
     background-position: bottom right;
     background-color: black;
