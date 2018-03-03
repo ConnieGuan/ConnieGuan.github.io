@@ -551,7 +551,7 @@ a{
 }
 
 .text-home {
-  background-color: #D63B80;
+  background-color: #EC883B;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -998,7 +998,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/abena-img/Splash7.jpg);
+    background-image: url(../img/Splash14.jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -1985,6 +1985,15 @@ FOOTER
 
 .process-numbers-home2 {
         color: white;
+        font-weight: 700;
+        font-size: 150px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        z-index: 1;
+}
+
+.process-numbers-home3 {
+        color: #EC883B;
         font-weight: 700;
         font-size: 150px;
         text-transform: uppercase;
