@@ -322,7 +322,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- PORTFOLIO -->
 	<section class="portfolio">
 		<div class="top-right-separator hidden-xs"></div>
@@ -353,7 +352,6 @@
 					</nav>
 				</div>
 			</div>
-
 			<!-- all works -->
 			<div class="col-md-9">
 				<div class="row portfolio_container">
@@ -370,7 +368,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 fashion logo">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -384,7 +381,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 ads graphics">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -398,7 +394,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 fashion ads">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -412,7 +407,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 graphics ads">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -426,7 +420,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 logo web photography">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -440,7 +433,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 ads graphics">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -454,7 +446,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 web fashion photography">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -468,7 +459,6 @@
 						</a>
 					</div>
 					<!-- end single work -->
-
 					<!-- single work -->
 					<div class="col-md-4 fashion logo">
 						<a href="single-project.html" class="portfolio_item work-grid">
@@ -490,7 +480,6 @@
 		<!-- end container -->
 	</section>
 	<!-- portfolio -->
-
 	<!-- CLIENTS -->
 	<div id="clients" class="clients mt-100 mbr-box mbr-section mbr-section--relative">
 		<svg preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -511,7 +500,6 @@
 				</div>
 		</div>
 	</div>
-
 	<!-- PRICING -->
 	<section id="pricing" class="pricing mbr-box mbr-section mbr-section--relative mbr-section--full-height mbr-section--bg-adapted">
 		<div class="container">
@@ -527,7 +515,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="row center">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="pricing_plan">
@@ -543,7 +530,6 @@
 						<a href="blog-inner.html" class="default-btn"> See More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
-
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="pricing_plan" style="background-color:rgba(243, 239, 135, 0.58);">
 						<div class="plan_title"><h6>Standard</h6></div>
@@ -558,7 +544,6 @@
 						<a href="blog-inner.html" class="default-btn"> See More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
-
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="pricing_plan">
 						<div class="plan_title"><h6>Advanced</h6></div>
@@ -576,7 +561,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- Testimonials -->
 	<section id="testimonials" class="testimonials mt-100 mb-100 mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted mbr-parallax-background" style="background-image: url"../img/testimonials.jpg);">
         <div class="container">
@@ -730,7 +714,6 @@
 	<script type="text/javascript">
 		$(window).load(function() {
 			new WOW().init();
-
 			// initialise flexslider
 			$('.flexslider').flexslider({
 				animation: "fade",
@@ -742,19 +725,15 @@
 				pauseOnHover: false,
 				slideshowSpeed: 4000,
 			});
-
 			smoothScroll.init();
-
 			// initialize isotope
 			var $container = $('.portfolio_container');
 			$container.isotope({
 				filter: '*',
 			});
-
 			$('.portfolio_filter a').click(function(){
 				$('.portfolio_filter .active').removeClass('active');
 				$(this).addClass('active');
-
 				var selector = $(this).attr('data-filter');
 				$container.isotope({
 					filter: selector,

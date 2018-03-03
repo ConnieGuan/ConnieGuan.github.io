@@ -488,6 +488,61 @@ a{
 }
 
 
+.button-home {
+    background-color: #D63B80; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+/* #### HOME PAGE HOVER #### */
+.container-home {
+    position: relative;
+}
+
+.image-home {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle-home {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-home:hover .image-home {
+  opacity: 0.3;
+}
+
+.container-home:hover .middle-home {
+  opacity: 1;
+}
+
+.text-home {
+  background-color: #D63B80;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
 /* #####  lists  ##### */
 
 ul.list li{
@@ -917,6 +972,9 @@ ul.tags li a:hover{
 }
 
 
+
+
+
 /* box-intro
 ==================================================*/
 
@@ -925,7 +983,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/Splash3.jpg);
+    background-image: url(../img/abena-img/Splash7.jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -1404,18 +1462,80 @@ footer a:hover {
 
 }
 
+
+
+.about-hero {
+    background: url("../img/splash12.jpg") no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.about-hero .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*text-shadow: 2px 2px #000;*/
+}
+
+/**
+.page-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 50px 0px;
+    
+}
+**/
+
+.about-hero h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+
+
+.about-small-title{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 24px;
+  /*  text-shadow: 2px 2px #000;*/
+}
+
 .dark-section{
   background-color: #D53B80;
+  background: url("../img/aboutbackground.png") no-repeat;
+  background-size: cover;
+  background-position: relative;
   color: white;
 }
 
 .dark-section-text{
   color:white;
   font-weight: 600;
+  text-shadow: 0px 2px #ff0000;
 }
 
 .dark-section-header{
   color:#D53B80;
+}
+
+.history-section{
+  background: url("../img/static.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.history-section-text{
+  color:white;
+  font-weight: 400;
 }
 
 .get-involved-section {
@@ -1424,7 +1544,9 @@ footer a:hover {
   border-top: 15px double #fff;
 }
 
-
+.smallerImg{
+  width: 15%;
+}
 /* --------------------------------
 
 SCHEDULE
@@ -2231,6 +2353,7 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
+<<<<<<< HEAD
     background: url("../img") no-repeat;
     background-position: center;
     background-color: black;
@@ -2244,6 +2367,10 @@ FOOTER
     background: url("../img") no-repeat;
     background-attachment: fixed;
     background-position: center;
+=======
+    background: url("../img/Events/splash-2.png") no-repeat;
+    background-position: bottom right;
+>>>>>>> 191a625c09cdadb2823054c8e8cc6e272f9147a8
     background-color: black;
     background-size: cover;
     height: 600px;
