@@ -848,7 +848,7 @@ ul.tags li a:hover{
     transform: translateX(-50%) translateY(-50%);
     width: 35px;
     height: 2px;
-    background-color: #000;
+    background-color: white;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
@@ -860,7 +860,7 @@ ul.tags li a:hover{
     width: 80%;
     height: 100%;
     position: absolute;
-    background-color: #000;
+    background-color: white;
     right: 0;
     -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
     -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -894,7 +894,7 @@ ul.tags li a:hover{
 }
 
 .box-primary-nav-trigger {
-    width: 100px;
+    width: 60px;
     padding-left: 1em;
     background-color: transparent;
     height: 30px;
@@ -904,6 +904,8 @@ ul.tags li a:hover{
     bottom: auto;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+    background-color: #D53B80;
+    border-radius: 5px;
 }
 
 .box-primary-nav-trigger .box-menu-text {
