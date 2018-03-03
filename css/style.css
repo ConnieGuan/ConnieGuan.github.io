@@ -1462,27 +1462,88 @@ footer a:hover {
 
 }
 
+
+
+.about-hero {
+    background: url("../img/splash1.jpg") no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.about-hero .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*text-shadow: 2px 2px #000;*/
+}
+
+/**
+.page-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 50px 0px;
+    
+}
+**/
+
+.about-hero h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+
+
+.about-small-title{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 24px;
+  /*  text-shadow: 2px 2px #000;*/
+}
+
 .dark-section{
   background-color: #D53B80;
+  background: url("../img/aboutbackground.png") no-repeat;
+  background-size: cover;
+  background-position: relative;
   color: white;
 }
 
 .dark-section-text{
   color:white;
   font-weight: 600;
+  text-shadow: 0px 2px #ff0000;
 }
 
 .dark-section-header{
   color:#D53B80;
 }
 
+.history-section{
+  background: url("../img/static.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.history-section-text{
+  color:white;
+  font-weight: 400;
+}
+
+
 .get-involved-section {
   padding: 100px 0 100px 0;
   background-color: #5688BF;
   border-top: 15px double #fff;
 }
-
-
 /* --------------------------------
 
 SCHEDULE
@@ -2263,16 +2324,6 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
-    background: url("../img") no-repeat;
-    background-position: bottom right;
-    background-color: black;
-    background-size: 10$ f20%;
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
-
-.site-hero_Events {
     background: url("../img/Events/splash-2.png") no-repeat;
     background-position: bottom right;
     background-color: black;
