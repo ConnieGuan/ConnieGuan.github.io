@@ -488,6 +488,61 @@ a{
 }
 
 
+.button-home {
+    background-color: #D63B80; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+/* #### HOME PAGE HOVER #### */
+.container-home {
+    position: relative;
+}
+
+.image-home {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle-home {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-home:hover .image-home {
+  opacity: 0.3;
+}
+
+.container-home:hover .middle-home {
+  opacity: 1;
+}
+
+.text-home {
+  background-color: #D63B80;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
 /* #####  lists  ##### */
 
 ul.list li{
@@ -917,6 +972,9 @@ ul.tags li a:hover{
 }
 
 
+
+
+
 /* box-intro
 ==================================================*/
 
@@ -925,7 +983,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/Splash3.jpg);
+    background-image: url(../img/abena-img/Splash7.jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
