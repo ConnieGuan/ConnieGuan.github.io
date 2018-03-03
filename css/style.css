@@ -489,7 +489,7 @@ a{
 
 
 .button-home {
-    background-color: #D63B80; /* Green */
+    background-color: #6C6D68; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -500,6 +500,21 @@ a{
     margin: auto;
     cursor: pointer;
 }
+
+.button-home2 {
+    background-color: #D63B80
+; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
 
 
 /* #### HOME PAGE HOVER #### */
@@ -1895,6 +1910,24 @@ FOOTER
 		z-index: 1;
 }
 
+.process-numbers-home {
+        color: #D63B80;
+        font-weight: 700;
+        font-size: 150px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        z-index: 1;
+}
+
+.process-numbers-home2 {
+        color: white;
+        font-weight: 700;
+        font-size: 150px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        z-index: 1;
+}
+
 .team h3{
 		color: #fff;
     text-transform: uppercase;
@@ -2274,6 +2307,17 @@ FOOTER
 
 .site-hero_Events {
     background: url("../img/Events/splash-2.png") no-repeat;
+    background-position: bottom right;
+    background-color: black;
+    background-size: 10$ f20%;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+
+.site-hero_Home {
+    background: url("../img/abena-img/neon2.jpg") no-repeat;
     background-position: bottom right;
     background-color: black;
     background-size: 10$ f20%;
