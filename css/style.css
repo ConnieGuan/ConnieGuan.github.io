@@ -1465,7 +1465,7 @@ footer a:hover {
 
 
 .about-hero {
-    background: url("../img/splash1.jpg") no-repeat;
+    background: url("../img/splash12.jpg") no-repeat;
     background-color: black;
     background-size: cover;
     height: 600px;
@@ -1538,11 +1538,14 @@ footer a:hover {
   font-weight: 400;
 }
 
-
 .get-involved-section {
   padding: 100px 0 100px 0;
   background-color: #5688BF;
   border-top: 15px double #fff;
+}
+
+.smallerImg{
+  width: 15%;
 }
 /* --------------------------------
 
