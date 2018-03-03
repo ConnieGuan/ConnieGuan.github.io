@@ -2002,6 +2002,7 @@ FOOTER
 }
 
 .member-thumb .overlay p {
+    margin-top: 10%;
     font-size: 18px;
     color: #D53B80;
     font-weight: 400;
