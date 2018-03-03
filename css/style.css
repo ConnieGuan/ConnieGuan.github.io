@@ -453,6 +453,10 @@ a{
 	color: #000;
 }
 
+.white-font{
+  color: white;
+}
+
 .section-title h2{
 	text-transform: uppercase;
 	letter-spacing: 10px;
@@ -489,7 +493,7 @@ a{
 
 
 .button-home {
-    background-color: #6C6D68; 
+    background-color: #D53B80; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -1480,7 +1484,7 @@ footer a:hover {
 
 
 .about-hero {
-    background: url("../img/splash12.jpg") no-repeat;
+    background: url("../img/splash9.jpg") no-repeat;
     background-color: black;
     background-size: cover;
     height: 600px;
@@ -1561,6 +1565,45 @@ footer a:hover {
 
 .smallerImg{
   width: 15%;
+}
+
+.get-involved {
+  padding: 100px 0 100px 0;
+  background-color: #ffeedb;
+  border-top: 15px double #fff;
+}
+
+
+@media only screen and (max-width : 480px) {
+  .get-inv {
+    padding: 50px 0 100px 0;
+  }
+}
+
+.get-involved .get-involved-item .item-head {
+    position: relative;
+    display: block;
+}
+
+.get-involved .get-involved-item .item-head i {
+    font-size: 50px;
+    color:#000;
+}
+
+.get-involved .get-involved-item h6 {
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.get-involved .get-involved-item p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
 }
 /* --------------------------------
 
@@ -1731,7 +1774,7 @@ FOOTER
 -------------------------------- */
 .features {
 	padding: 100px 0 100px 0;
-	background-color: #ffeedb;
+	background-color: #000;
 	border-top: 15px double #fff;
 }
 
@@ -1749,7 +1792,7 @@ FOOTER
 
 .features .feature-item .item-head i {
     font-size: 50px;
-		color:#000;
+		color:#fff;
 }
 
 .features .feature-item h6 {
