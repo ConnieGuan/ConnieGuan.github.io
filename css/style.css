@@ -2396,7 +2396,6 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
-<<<<<<< HEAD
     background: url("../img") no-repeat;
     background-position: center;
     background-color: black;
@@ -2410,10 +2409,8 @@ FOOTER
     background: url("../img") no-repeat;
     background-attachment: fixed;
     background-position: center;
-=======
     background: url("../img/Events/splash-2.png") no-repeat;
     background-position: bottom right;
->>>>>>> 191a625c09cdadb2823054c8e8cc6e272f9147a8
     background-color: black;
     background-size: cover;
     height: 600px;
@@ -2422,7 +2419,6 @@ FOOTER
 }
 
 
-<<<<<<< HEAD
 .site-hero_Home {
     background: url("../img/abena-img/neon2.jpg") no-repeat;
     background-position: bottom right;
@@ -2433,8 +2429,6 @@ FOOTER
     position: relative;
 }
 
-=======
->>>>>>> 4cdb4e1d5f031349f7ad49277e3a86a647b3aabc
 .site-hero_2 .page-title {
     position: absolute;
     top: 50%;
@@ -2701,6 +2695,26 @@ ul.services-list li{
 14.CONTACT PAGE
 
 -------------------------------- */
+
+.site-hero_Events {
+    background: url("../img/Splash2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.event-time{
+        font-size: 20px;
+        font-weight: 400 !important;
+        text-transform: uppercase;
+        color: #D53B80;
+    letter-spacing: 5px;
+    text-align: left;
+    margin-bottom: 35px;
+}
 
 .site-hero-contact {
     background: url("../img/team.jpg") no-repeat;
