@@ -506,7 +506,7 @@ a{
 }
 
 .button-home2 {
-    background-color: #D63B80
+    background-color: #272822
 ; 
     border: none;
     color: white;
@@ -554,8 +554,22 @@ a{
   opacity: 1;
 }
 
-.text-home {
+.text-home2 {
   background-color: #EC883B;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text-home {
+  background-color: #D63B80;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text-home3 {
+  background-color:#4B5257;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
