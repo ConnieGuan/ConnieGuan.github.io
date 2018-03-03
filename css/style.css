@@ -1869,18 +1869,19 @@ FOOTER
 }
 
 .member-thumb .overlay h6 {
-		font-size: 15px;
+		font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        letter-spacing: 10px;
 		line-height: 24px;
-		margin-top: 50%;
+		margin-top: 25%;
 		text-transform: uppercase;
-		color: #333;
+		color: #fff;
 		font-weight: 700;
 }
 
 .member-thumb .overlay p {
-    font-size: 15px;
-    color: #777;
-    opacity: .5;
+    font-size: 18px;
+    color: #D53B80;
     font-weight: 400;
 }
 
@@ -1890,18 +1891,29 @@ FOOTER
 }
 
 .team-member h6 {
-		font-size: 15px;
+		font-size: 26px;
 		font-family: "Cantarell", "Times New Roman", sans-serif;
 		line-height: 10px;
-		margin: 30px 0 15px;
+		margin-top: 25%;
 		color: #333;
 		text-transform: uppercase;
 		font-weight: 700;
 }
 
+.team-member h5 {
+        font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        line-height: 10px;
+        margin: 30px 0 15px;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: 500;
+}
+
 .member-thumb:hover .overlay {
     cursor: url(../img/eye.png), auto;
-    opacity: 0.8;
+    background-color: black;
+    opacity: 1.0;
     -webkit-transform: rotateY(0deg) scale(1,1);
     -moz-transform: rotateY(0deg) scale(1,1);
     -ms-transform: rotateY(0deg) scale(1,1);
@@ -1909,24 +1921,38 @@ FOOTER
     transform: rotateY(0deg) scale(1,1);
 }
 
+
 .team-member:hover h6 {
-    color: #333;
+    text-transform: uppercase;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    letter-spacing: 10px;
+    margin-top: 25%;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.team-member:hover p {
+    margin-to
+    color: ##D53B80;
+    font-size: 18px;
 }
 
 .social-links {
-    font-size: 13px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .social-links a {
     display: inline-block;
+    margin-top: 20px;
     padding: 3px 7px;
-    color: #333;
+    color: #fff;
 }
 
 .social-links a:hover {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .cover {
@@ -2206,7 +2232,7 @@ FOOTER
 
 .site-hero_2 {
     background: url("../img") no-repeat;
-    background-position: bottom right;
+    background-position: center;
     background-color: black;
     background-size: 10$ f20%;
     height: 600px;
@@ -2215,14 +2241,16 @@ FOOTER
 }
 
 .site-hero_Events {
-    background: url("../img/Events/splash-2.png") no-repeat;
-    background-position: bottom right;
+    background: url("../img") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-color: black;
-    background-size: 10$ f20%;
+    background-size: cover;
     height: 600px;
     width: 100%;
     position: relative;
 }
+
 
 .site-hero_2 .page-title {
     position: absolute;
