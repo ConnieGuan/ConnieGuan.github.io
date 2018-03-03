@@ -1477,18 +1477,80 @@ footer a:hover {
 
 }
 
+
+
+.about-hero {
+    background: url("../img/splash12.jpg") no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.about-hero .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*text-shadow: 2px 2px #000;*/
+}
+
+/**
+.page-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 50px 0px;
+    
+}
+**/
+
+.about-hero h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+
+
+.about-small-title{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 24px;
+  /*  text-shadow: 2px 2px #000;*/
+}
+
 .dark-section{
   background-color: #D53B80;
+  background: url("../img/aboutbackground.png") no-repeat;
+  background-size: cover;
+  background-position: relative;
   color: white;
 }
 
 .dark-section-text{
   color:white;
   font-weight: 600;
+  text-shadow: 0px 2px #ff0000;
 }
 
 .dark-section-header{
   color:#D53B80;
+}
+
+.history-section{
+  background: url("../img/static.jpeg") no-repeat;
+  background-size: cover;
+}
+
+.history-section-text{
+  color:white;
+  font-weight: 400;
 }
 
 .get-involved-section {
@@ -1497,7 +1559,9 @@ footer a:hover {
   border-top: 15px double #fff;
 }
 
-
+.smallerImg{
+  width: 15%;
+}
 /* --------------------------------
 
 SCHEDULE
@@ -1960,18 +2024,20 @@ FOOTER
 }
 
 .member-thumb .overlay h6 {
-		font-size: 15px;
+		font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        letter-spacing: 10px;
 		line-height: 24px;
-		margin-top: 50%;
+		margin-top: 25%;
 		text-transform: uppercase;
-		color: #333;
+		color: #fff;
 		font-weight: 700;
 }
 
 .member-thumb .overlay p {
-    font-size: 15px;
-    color: #777;
-    opacity: .5;
+    margin-top: 10%;
+    font-size: 18px;
+    color: #D53B80;
     font-weight: 400;
 }
 
@@ -1981,18 +2047,29 @@ FOOTER
 }
 
 .team-member h6 {
-		font-size: 15px;
+		font-size: 26px;
 		font-family: "Cantarell", "Times New Roman", sans-serif;
 		line-height: 10px;
-		margin: 30px 0 15px;
+		margin-top: 25%;
 		color: #333;
 		text-transform: uppercase;
 		font-weight: 700;
 }
 
+.team-member h5 {
+        font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        line-height: 10px;
+        margin: 30px 0 15px;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: 500;
+}
+
 .member-thumb:hover .overlay {
     cursor: url(../img/eye.png), auto;
-    opacity: 0.8;
+    background-color: black;
+    opacity: 1.0;
     -webkit-transform: rotateY(0deg) scale(1,1);
     -moz-transform: rotateY(0deg) scale(1,1);
     -ms-transform: rotateY(0deg) scale(1,1);
@@ -2000,24 +2077,38 @@ FOOTER
     transform: rotateY(0deg) scale(1,1);
 }
 
+
 .team-member:hover h6 {
-    color: #333;
+    text-transform: uppercase;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    letter-spacing: 10px;
+    margin-top: 25%;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.team-member:hover p {
+    margin-to
+    color: ##D53B80;
+    font-size: 18px;
 }
 
 .social-links {
-    font-size: 13px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .social-links a {
     display: inline-block;
-    padding: 3px 7px;
-    color: #333;
+    margin-top: 20px;
+    padding: 3px 10px;
+    color: #fff;
 }
 
 .social-links a:hover {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .cover {
@@ -2296,8 +2387,9 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
+<<<<<<< HEAD
     background: url("../img") no-repeat;
-    background-position: bottom right;
+    background-position: center;
     background-color: black;
     background-size: 10$ f20%;
     height: 600px;
@@ -2306,16 +2398,22 @@ FOOTER
 }
 
 .site-hero_Events {
+    background: url("../img") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+=======
     background: url("../img/Events/splash-2.png") no-repeat;
     background-position: bottom right;
+>>>>>>> 191a625c09cdadb2823054c8e8cc6e272f9147a8
     background-color: black;
-    background-size: 10$ f20%;
+    background-size: cover;
     height: 600px;
     width: 100%;
     position: relative;
 }
 
 
+<<<<<<< HEAD
 .site-hero_Home {
     background: url("../img/abena-img/neon2.jpg") no-repeat;
     background-position: bottom right;
@@ -2326,6 +2424,8 @@ FOOTER
     position: relative;
 }
 
+=======
+>>>>>>> 4cdb4e1d5f031349f7ad49277e3a86a647b3aabc
 .site-hero_2 .page-title {
     position: absolute;
     top: 50%;
