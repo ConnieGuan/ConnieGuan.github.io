@@ -615,7 +615,7 @@ a{
 }
 
 .text-home3 {
-  background-color:#4B5257;
+  background-color: #9F9F9F;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -2090,6 +2090,10 @@ FOOTER
 
 .team {
 		padding: 0 0 100px;
+}
+
+.team2 {
+        padding: 0 0 60px;
 }
 
 
