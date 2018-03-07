@@ -1853,11 +1853,21 @@ FOOTER
 	border-top: 15px double #fff;
 }
 
+.features2 {
+    padding: 50px 0 50px 0;
+    background-color: #000;
+    border-top: 15px double #fff;
+}
+
 
 @media only screen and (max-width : 480px) {
 	.features {
 		padding: 50px 0 100px 0;
 	}
+
+    .features2 {
+        padding: 50px 0 100px 0;
+    }
 }
 
 .features .feature-item .item-head {
@@ -1881,6 +1891,33 @@ FOOTER
 }
 
 .features .feature-item p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+.features2 .feature-item .item-head {
+    position: relative;
+    display: block;
+}
+
+.features2 .feature-item .item-head i {
+    font-size: 50px;
+        color:#fff;
+}
+
+.features2 .feature-item h6 {
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding: 0;
+        color: #000;
+        font-weight: 700;
+        letter-spacing: 1px;
+}
+
+.features2 .feature-item p {
     margin-top: 20px;
     margin-bottom: 0;
     padding: 0;
@@ -2854,6 +2891,7 @@ ul.services-list li{
 }
 
 .srv_pricing2 {
+        padding: 0 0 75px;
         background: #ffeedb;
         border-bottom: 15px double #fff;
 }
