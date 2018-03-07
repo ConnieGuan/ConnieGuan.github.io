@@ -2935,12 +2935,13 @@ ul.services-list li{
 }
 
 .site-hero-contact {
-    background: url("../img/staff2.png") no-repeat;
-    background-attachment: top;
-    background-position: center;
+    background-image: url("../img/staff2.png");
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: bottom;
     background-size: cover;
-    height: 600px;
-    width: 100%;
+    height: 810px;
+    width: auto;
     position: relative;
 }
 
