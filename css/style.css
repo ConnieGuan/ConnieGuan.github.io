@@ -241,9 +241,18 @@ section{
 	text-align: left;
 }
 
+.mt-25{
+    margin-top: 25px;
+}
+
 .mt-50{
 	margin-top: 50px;
 }
+
+.mt-75{
+    margin-top: 75px;
+}
+
 .mt-100{
 	margin-top: 100px;
 }
@@ -252,8 +261,29 @@ section{
 	margin-top: 150px;
 }
 
+
+.mb-10{
+    margin-bottom: 5px;
+}
+
+.mb-25{
+    margin-bottom: 25px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
 .mb-50{
 	margin-bottom: 50px;
+}
+
+.mb-75{
+    margin-bottom: 75px;
 }
 
 .mb-100{
@@ -496,18 +526,18 @@ a{
     background-color: #D53B80; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 18px 32px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     margin: auto;
     cursor: pointer;
+    height: 
 }
 
 .button-home2 {
-    background-color: #272822
-; 
+    background-color: #272822;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -522,6 +552,21 @@ a{
 
 
 /* #### HOME PAGE HOVER #### */
+.container-service {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 243px;
+}
+
+.row-center-services {
+    text-align: center;
+    height: 100px;
+    width: 243px;
+}
+
 .container-home {
     position: relative;
 }
@@ -573,6 +618,14 @@ a{
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+.text-home-currently-playing {
+  background-color:#4B5257;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border: 5px solid #D63B80;
 }
 
 
@@ -1882,6 +1935,16 @@ FOOTER
 	  margin-bottom: 100px;
 }
 
+.portfolio h3{
+        text-transform: uppercase;
+      letter-spacing: 5px;
+      color: #000;
+      font-size: 25px;
+      font-weight: 700;
+      margin-top: -145px;
+      margin-bottom: 100px;
+}
+
 .top-right-separator {
     width: 0;
     position: absolute;
@@ -2048,7 +2111,7 @@ FOOTER
 }
 
 .process-numbers-home2 {
-        color: white;
+        color: black;
         font-weight: 700;
         font-size: 150px;
         text-transform: uppercase;
@@ -2057,9 +2120,9 @@ FOOTER
 }
 
 .process-numbers-home3 {
-        color: #EC883B;
+        color: black;/*#EC883B;*/
         font-weight: 700;
-        font-size: 150px;
+        font-size: 100px;
         text-transform: uppercase;
         letter-spacing: 2px;
         z-index: 1;
@@ -2296,6 +2359,12 @@ FOOTER
     z-index: 3;
 }
 
+.svgcolor-light2, .svgcolor-dark2 {
+    position: relative;
+    top: -2px;
+    z-index: 3;
+}
+
 #owl-demo{
 	  padding-top: 30px;
 }
@@ -2488,7 +2557,7 @@ FOOTER
     background-position: bottom right;
     background-color: black;
     background-size: 10$ f20%;
-    height: 600px;
+    height: 550px;
     width: 100%;
     position: relative;
 }
@@ -2777,6 +2846,11 @@ ul.services-list li{
 		padding: 0 0 100px;
 		background: #ffeedb;
 		border-bottom: 15px double #fff;
+}
+
+.srv_pricing2 {
+        background: #ffeedb;
+        border-bottom: 15px double #fff;
 }
 
 /* --------------------------------
