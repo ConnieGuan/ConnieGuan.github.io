@@ -92,11 +92,6 @@ p{
 	sans-serif; font-size: 15px;
 }
 
-@media only screen and (max-width : 480px){
-	.libre-text{ font-size: 14px;
-		}
-	}
-
 .white-color{
 	color:white;
 }
@@ -129,6 +124,8 @@ p{
 ul.social-icons li a:hover{
 	color:#7beec7;
 }
+
+
 
 
 /* #####  diagram skills  ##### */
@@ -429,6 +426,18 @@ a{
     margin-bottom: 50px;
 }
 
+
+.module-subtitle2 {
+    text-transform: none !important;
+    color: #000;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
 .module-title-large{
 		font-size: 60px;
 		font-weight: 400 !important;
@@ -504,6 +513,14 @@ a{
   font-weight: 400;
 }
 
+.section-title-3 h2{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color:white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
 .section-title-parralax h2{
 		text-transform: uppercase;
 		letter-spacing: 10px;
@@ -548,6 +565,20 @@ a{
     font-size: 16px;
     margin: auto;
     cursor: pointer;
+}
+
+.button-listen-live {
+    background-color: #D53B80; 
+    border: none;
+    color: white;
+    padding: 18px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: auto;
+    cursor: pointer;
+    height: 
 }
 
 
@@ -1135,8 +1166,8 @@ b i:last-child {
 
 .mouse {
 		position: absolute;
-		width: 20px;
-		height: 35px;
+		width: 30%;
+		height: 50px;
 		bottom: 100px;
 		left: 50%;
 		margin-left: -12px;
@@ -1144,19 +1175,34 @@ b i:last-child {
 		border: 1px solid #888;
 		-webkit-animation: intro 1s;
 		animation: intro 1s;
+        
 }
 
-.scroll {
-		display: block;
-	  width: 1px;
-	  height: 5px;
-	  margin: 6px auto;
-	  border-radius: 4px;
-	  background: #999;
-	  -webkit-animation: finger 2s infinite;
-	  animation: finger 2s infinite;
+.button-area {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    z-index: 3;
 }
 
+#listen-live {
+    background-color: #D53B80;
+    position: relative;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+    /*border: 1px solid #888;*/
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
+    z-index: 3;
+    display: block;
+    margin: 0px auto;
+    align-self: center;
+    color: white;
+
+}
 @keyframes intro {
     0% {
         opacity: 0;
@@ -1355,6 +1401,10 @@ footer.main-footer{
 		z-index: 0;
 }
 
+footer.main-footer2{
+        background-color: #000;
+        z-index: 0;
+}
 
 
 footer p {
@@ -2344,6 +2394,18 @@ FOOTER
     padding: 15px;
 }
 
+.cover2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+}
+
 .overlay {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -2639,17 +2701,6 @@ FOOTER
     position: relative;
 }
 
-.site-hero-contact {
-    background: url("../img/staff2.png") no-repeat;
-    background-attachment: top;
-    background-position: center;
-    background-color: black;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
-
 
 
 .site-hero_Home {
@@ -2704,6 +2755,8 @@ FOOTER
     letter-spacing: 2px;
     font-size: 13px;
 }
+
+
 
 .small-title{
 		color: #777;
@@ -2954,9 +3007,16 @@ ul.services-list li{
         border-bottom: 15px double #fff;
 }
 
+
+.srv_pricing3 {
+        padding: 0 0 25px;
+        background: #ffeedb;
+        border-bottom: 15px double #fff;
+}
+
 /* --------------------------------
 
-14.CONTACT PAGE
+14.CONTACT & EVENTS PAGE
 
 -------------------------------- */
 
@@ -2980,15 +3040,66 @@ ul.services-list li{
     margin-bottom: 35px;
 }
 
+.module-subtitle-contact {
+    text-transform: none !important;
+    color: #000;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.module-subtitle-contact2 {
+    text-transform: uppercase;
+    color: #D42880;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.small-title-contact{
+        color: #777;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.small-title-contact2{
+        color: #777;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-size: 12px;
+}
+
+.small-title-contact3{
+        color: #000;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
 .site-hero-contact {
     background-image: url("../img/staff2.png");
     background-repeat: no-repeat;
-    background-attachment: center;
+    background-attachment: top;
     background-position: bottom;
     background-size: cover;
     height: 810px;
-    width: auto;
+    width: 100%;
     position: relative;
+}
+
+ul.staff-list li{
+        list-style: none;
+        position: relative;
+        margin-bottom: 15px;
+        padding: 15px 25px 30px;
+        color: #777;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
 }
 
 .site-hero-contact .page-title {
@@ -3107,4 +3218,19 @@ ul.services-list li{
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+.carousel-container {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+@media only screen and (max-width : 480px) {
+    .libre-text {
+        font-size: 14px;
+    }
+
+    .site-hero_Home {
+        background: none;
+        height: 0px;
+    }
 }
