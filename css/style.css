@@ -426,6 +426,7 @@ a{
     margin-bottom: 50px;
 }
 
+
 .module-subtitle2 {
     text-transform: none !important;
     color: #000;
@@ -2654,17 +2655,6 @@ FOOTER
     position: relative;
 }
 
-.site-hero-contact {
-    background: url("../img/staff2.png") no-repeat;
-    background-attachment: top;
-    background-position: center;
-    background-color: black;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
-
 
 
 .site-hero_Home {
@@ -2719,6 +2709,8 @@ FOOTER
     letter-spacing: 2px;
     font-size: 13px;
 }
+
+
 
 .small-title{
 		color: #777;
@@ -2978,7 +2970,7 @@ ul.services-list li{
 
 /* --------------------------------
 
-14.CONTACT PAGE
+14.CONTACT & EVENTS PAGE
 
 -------------------------------- */
 
@@ -3002,15 +2994,66 @@ ul.services-list li{
     margin-bottom: 35px;
 }
 
+.module-subtitle-contact {
+    text-transform: none !important;
+    color: #000;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.module-subtitle-contact2 {
+    text-transform: uppercase;
+    color: #D42880;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.small-title-contact{
+        color: #777;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.small-title-contact2{
+        color: #777;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-size: 12px;
+}
+
+.small-title-contact3{
+        color: #000;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
 .site-hero-contact {
     background-image: url("../img/staff2.png");
     background-repeat: no-repeat;
-    background-attachment: center;
+    background-attachment: top;
     background-position: bottom;
     background-size: cover;
     height: 810px;
-    width: auto;
+    width: 100%;
     position: relative;
+}
+
+ul.staff-list li{
+        list-style: none;
+        position: relative;
+        margin-bottom: 15px;
+        padding: 15px 25px 30px;
+        color: #777;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
 }
 
 .site-hero-contact .page-title {
