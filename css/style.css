@@ -1186,18 +1186,20 @@ b i:last-child {
 }
 
 #listen-live {
+    background-color: #D53B80;
     position: relative;
     width: 30%;
     height: 50px;
     line-height: 50px;
     border-radius: 15px;
-    border: 1px solid #888;
+    /*border: 1px solid #888;*/
     -webkit-animation: intro 1s;
     animation: intro 1s;
     z-index: 3;
     display: block;
     margin: 0px auto;
     align-self: center;
+    color: white;
 
 }
 @keyframes intro {
