@@ -1737,7 +1737,9 @@ SCHEDULE
 -------------------------------- */
 .time-header {
     color: white;
-
+    position: relative;
+    left: 50%;
+    transform: skewY(-1deg);
 }
 .card {
     border-style: solid;
@@ -1832,12 +1834,22 @@ SCHEDULE
     color: white;
     position: relative;
     bottom: 15px;
+    left: 10%;
+    font-size: 36px;
+    transform: skewY(-1deg);
 }
 
 .showImg {
     max-width: 150px;
     margin: 10px;
-    float: left;
+
+}
+
+.showImg2 {
+    max-width: 150px;
+    margin: 10px;
+    float: right;
+    transform: skewY(-1deg);
 
 }
 
@@ -1860,6 +1872,18 @@ SCHEDULE
     border-bottom: 1px solid #ddd;
     margin-right: 0;
    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.time-header {
+    color: white;
+    position: static;
+}
+
+.showImg2 {
+    display: none;
+}
 }
 
 /* --------------------------------
