@@ -3137,7 +3137,7 @@ ul.services-list li{
     text-transform: uppercase;
     color: #D42880;
     font-family: "Cantarell", "Times New Roman", sans-serif;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
     font-size: 20px;
 }
@@ -3171,7 +3171,7 @@ ul.services-list li{
     background-attachment: top;
     background-position: bottom;
     background-size: cover;
-    height: 810px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
