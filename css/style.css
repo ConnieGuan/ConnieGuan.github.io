@@ -3118,7 +3118,7 @@ ul.services-list li{
     clear: both;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .column-contact {
         width: 100%;
     }
@@ -3171,7 +3171,7 @@ ul.services-list li{
     background-attachment: top;
     background-position: bottom;
     background-size: cover;
-    height: 600px;
+    height: 800px;
     width: 100%;
     position: relative;
 }
