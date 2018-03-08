@@ -1685,6 +1685,10 @@ footer a:hover {
 SCHEDULE
 
 -------------------------------- */
+.time-header {
+    color: white;
+
+}
 .card {
     border-style: solid;
     border-color: #000;
@@ -1696,10 +1700,34 @@ SCHEDULE
     transform: skewY(-1deg);
 }
 
+.card-title-am {
+    border-style: none;
+    border-width: 1px;
+    background-color: #EC8838;
+    padding: 20px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    right: 40px;
+    max-width: 500px;
+}
+
+.card-title-pm {
+    border-style: none;
+    border-width: 1px;
+    background-color: #5688BF;
+    padding: 20px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    right: 40px;
+    max-width: 500px;
+}
+
 .card-title {
     border-style: none;
     border-width: 1px;
-    background-color: #D42880;
+    background-color: #D53B80;
     padding: 20px;
     position: relative;
     color: white;
@@ -1726,6 +1754,22 @@ SCHEDULE
 
 }
 
+.tab {
+    font-size: 22px;
+    margin-left: 20px;
+
+}
+
+.tab-header {
+    color: white;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border-color: #696969;
+    border-bottom-color: #fff;
+    color:#D42880;
+}
+
 .nav-tab-container {
     color: white;
     border-color: white;
@@ -1741,8 +1785,9 @@ SCHEDULE
 }
 
 .showImg {
-    max-width: 100px;
+    max-width: 150px;
     margin: 10px;
+    float: left;
 
 }
 
@@ -1756,6 +1801,7 @@ SCHEDULE
 }
 
 @media screen and (max-width:767px){
+
   .nav-tabs > li {
     width: 100%;
    }
