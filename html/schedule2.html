@@ -71,6 +71,17 @@
 	
 
 	<!-- Schedule -->
+
+<!-- BACK TO TOP -->
+<a id="top"></a>
+
+<div id="back-to-top">
+  <img src="../img/tv.gif" id="topImg" onclick="topFunction()"></img>
+  <h3 class="bottom-left">Top</h3>
+</div>
+
+<!-- END BACK TO TOP  -->
+
 	<section class="about_descr mt-100">
 		<div class="container">
 			<div class="row center">
@@ -78,6 +89,7 @@
 					<div class="section-title">
 						<h2 class="mb-50">Weekly Schedule</h2>
 						<p class="module-subtitle">Our schedule is updated quarterly.</p>
+
 					</div>
 				</div>
 			</div>
@@ -1545,6 +1557,8 @@
 			</div>
 		</div>
 	</section>
+  
+
 
 </br>
 
@@ -1608,10 +1622,7 @@
   </footer>
   <!-- END OF FOOTER-->
 
-  <!-- BACK TO TOP -->
-  <a href=”#” class=”back-to-top” style=”display: inline;”>
-    <i class=”fa fa-arrow-circle-up”></i>
-  </a>
+
 
 
 	<!-- SCRIPTS -->
@@ -1655,7 +1666,6 @@
     {
       if(tabContent[i].id == n)
       {
-        console.log(n);
         tabs[i].className += " active";
         tabContent[i].className += " active";
       }
@@ -1663,6 +1673,25 @@
 
   }
 
+</script>
+
+<script>
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top").style.display = "block";
+    } else {
+        document.getElementById("back-to-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 </script>
 
 </body>

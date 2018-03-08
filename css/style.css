@@ -1735,24 +1735,38 @@ footer a:hover {
 BACK TO TOP
 
 --------------------------------- */
-.back-to-top {
- 
-background: none;
-margin: 0;
-position: fixed;
-bottom: 0;
-right: 0;
-width: 70px;
-height: 70px;
-z-index: 100;
-display: none;
-text-decoration: none;
-color: #ffffff;
-background-color: #ff9000;
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px;
+
 }
 
-.back-to-top i {
-    font-size: 60px;
+#topImg {
+  width: 100px;
+  height: auto;
+}
+
+#back-to-top:hover {
+  background-color: #D3D3D37F;
+}
+
+.bottom-left {
+    background-color: #D53B80;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
 }
 
 
