@@ -3096,6 +3096,56 @@ ul.services-list li{
 
 -------------------------------- */
 
+.default-btn-events {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding: 0 0 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.default-btn-events i {
+    opacity: 0;
+    position: absolute;
+    font-size: 25px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    right: 30px;
+    top: 0;
+    color:#ccc;
+}
+
+.button-event {
+    background-color: #D53B80; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: pointer; 
+}
+
+.button-event2 {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 5px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 25px;
+    cursor: pointer; 
+}
+
 .site-hero_Events {
     background: url("../img/Splash2.jpg") no-repeat;
     background-attachment: fixed;
@@ -3108,12 +3158,17 @@ ul.services-list li{
 }
 .event-time{
     font-size: 20px;
-    font-weight: 400 !important;
+    font-weight: 800 !important;
     text-transform: uppercase;
     color: #D53B80;
     letter-spacing: 5px;
     text-align: left;
     margin-bottom: 35px;
+}
+
+.event-link{
+    color: #00F;
+    text-align: center;
 }
 
 
