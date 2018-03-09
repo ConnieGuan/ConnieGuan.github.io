@@ -3171,8 +3171,16 @@ ul.services-list li{
 }
 
 .small-title-contact3{
-        color: #000;
+    color: #000;
     font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.small-title-contact3 span {
+    color: #00F;;
+    font-weight: 500;
+    font-style: italic;
     letter-spacing: 1px;
     font-size: 12px;
 }
@@ -3192,21 +3200,13 @@ ul.staff-list li{
         list-style: none;
         position: relative;
         margin-bottom: 15px;
-        padding: 15px 25px 30px;
+        padding: 15px 10px 30px;
         color: #777;
         text-transform: uppercase;
         font-size: 12px;
         letter-spacing: 1px;
 }
 
-ul.staff-list li  {
-        list-style: none;
-        position: relative;
-        color: #777;
-        text-transform: uppercase;
-        font-size: 12px;
-        letter-spacing: 1px;
-}
 
 
 .site-hero-contact .page-title {
