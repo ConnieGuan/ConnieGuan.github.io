@@ -3142,7 +3142,7 @@ ul.services-list li{
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .module-subtitle-contact2 {
@@ -3200,7 +3200,6 @@ ul.staff-list li{
         list-style: none;
         position: relative;
         margin-bottom: 15px;
-        padding: 15px 10px 30px;
         color: #777;
         text-transform: uppercase;
         font-size: 12px;
