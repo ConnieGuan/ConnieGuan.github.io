@@ -1103,7 +1103,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/Splash14.jpg);
+    background-image: url(../img/homepage-splash.jpg);
         background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -2775,6 +2775,18 @@ FOOTER
     height: 550px;
     width: 100%;
     position: relative;
+}
+
+.site-hero_Home2 {
+    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
 .site-hero_2 .page-title {
