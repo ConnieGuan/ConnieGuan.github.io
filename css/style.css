@@ -3119,7 +3119,7 @@ ul.services-list li{
 
 .column-contact {
     float: left;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     background-color: #fff;
 }
@@ -3130,7 +3130,7 @@ ul.services-list li{
     clear: both;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     .column-contact {
         width: 100%;
     }
