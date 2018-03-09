@@ -1779,8 +1779,12 @@ SCHEDULE
     color: white;
     position: relative;
     left: 50%;
+}
+
+.content-container {
     transform: skewY(-1deg);
 }
+
 .card {
     border-style: solid;
     border-color: #000;
@@ -1789,7 +1793,7 @@ SCHEDULE
     padding: 20px;
     margin: 10px;
     background-color: white;
-    transform: skewY(-1deg);
+    /*transform: skewY(-1deg); */
 }
 
 .card-title-am {
