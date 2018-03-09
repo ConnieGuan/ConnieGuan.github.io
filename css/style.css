@@ -3130,7 +3130,7 @@ ul.services-list li{
     clear: both;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .column-contact {
         width: 100%;
     }
@@ -3183,7 +3183,7 @@ ul.services-list li{
     background-attachment: top;
     background-position: bottom;
     background-size: cover;
-    height: 600px;
+    height: 800px;
     width: 100%;
     position: relative;
 }
@@ -3198,6 +3198,16 @@ ul.staff-list li{
         font-size: 12px;
         letter-spacing: 1px;
 }
+
+ul.staff-list li  {
+        list-style: none;
+        position: relative;
+        color: #777;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+}
+
 
 .site-hero-contact .page-title {
     position: absolute;
