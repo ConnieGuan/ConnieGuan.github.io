@@ -1752,12 +1752,38 @@ BACK TO TOP
 
 }
 
+#back-to-top-home {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px;
+
+}
+
 #topImg {
   width: 100px;
   height: auto;
 }
 
+#topImg-home {
+  width: 70px;
+  height: auto;
+}
+
 #back-to-top:hover {
+  background-color: #D3D3D37F;
+}
+
+#back-to-top-home:hover {
   background-color: #D3D3D37F;
 }
 
@@ -1767,6 +1793,15 @@ BACK TO TOP
     position: absolute;
     bottom: 8px;
     left: 25px;
+}
+
+
+.bottom-left-home {
+    background-color: #D53B80;
+    font-weight: bold;
+    position: absolute;
+    bottom: -20px;
+    left: 27px;
 }
 
 

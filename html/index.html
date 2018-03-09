@@ -80,6 +80,13 @@
 		</div>
 	</header>
 
+	<!-- BACK TO TOP -->
+	<a id="top"></a>
+	<div id="back-to-top-home">
+	  <img src="../img/back-to-top.png" id="topImg-home" onclick="topFunction()"></img>
+	  <h3 class="bottom-left-home">Top</h3>
+	</div>
+	<!-- END BACK TO TOP  -->
 
 	<!-- CURRENTLY PLAYING AND UP NEXT -->
 	<section class="about_descr">
@@ -226,7 +233,7 @@
 			</div>
 		</div>
 	</div>-->
-	<div class="site-hero_Home3" style="color: black;">
+	<div class="site-hero_Home" style="color: black;">
 		<div class="section-overlay"></div>
 		<div class="page-title"></div>
 	</div>
@@ -484,6 +491,26 @@
  			 ]
 			});
 		 });
+	</script>
+
+	<script>
+		// When the user scrolls down 50px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+		        document.getElementById("back-to-top-home").style.display = "block";
+		    } else {
+		        document.getElementById("back-to-top-home").style.display = "none";
+		    }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		    //document.body.scrollTop = 0;
+		    //document.documentElement.scrollTop = 0;
+		    $('html, body').animate({scrollTop:0},'slow');
+		}
 	</script>
 
 </body>
