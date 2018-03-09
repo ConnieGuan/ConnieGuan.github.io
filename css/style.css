@@ -2798,6 +2798,17 @@ FOOTER
     margin: auto;
 }
 
+.site-hero_Home3 {
+    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 10$ f20%;
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+
 .site-hero_2 .page-title {
     position: absolute;
     top: 50%;
@@ -3260,6 +3271,19 @@ ul.services-list li{
     position: relative;
 }
 
+.site-hero-contact2 {
+    background-image: url("../img/staff2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
 ul.staff-list li{
         list-style: none;
         position: relative;
@@ -3283,6 +3307,25 @@ ul.staff-list li{
 }
 
 .site-hero-contact h2{
+        color: #fff;
+        font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+
+.site-hero-contact2 .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.site-hero-contact2 h2{
         color: #fff;
         font-weight: bold;
     text-transform: uppercase;
