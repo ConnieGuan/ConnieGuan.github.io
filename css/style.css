@@ -1793,7 +1793,6 @@ SCHEDULE
     padding: 20px;
     margin: 10px;
     background-color: white;
-    /*transform: skewY(-1deg); */
 }
 
 .card-title-am {
@@ -1853,6 +1852,8 @@ SCHEDULE
 .tab {
     font-size: 22px;
     margin-left: 20px;
+    width: 60px;
+    text-align: center;
 
 }
 
@@ -1906,16 +1907,20 @@ SCHEDULE
     display: inline-block;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:650px){
 
-  .nav-tabs > li {
-    width: 100%;
+  .nav-tabs > li > .tab{
+    width: 45px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left:0px;
    }
 
    .nav-tabs > .active {
     border-bottom: 1px solid #ddd;
     margin-right: 0;
    }
+
 }
 
 /* Medium Devices, Desktops */
