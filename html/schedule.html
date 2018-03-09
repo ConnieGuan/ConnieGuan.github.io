@@ -69,6 +69,15 @@
 	</header>
 	<!-- HERO SECTION  -->
 	
+  <!-- BACK TO TOP -->
+<a id="top"></a>
+
+<div id="back-to-top">
+  <img src="../img/tv.gif" id="topImg" onclick="topFunction()"></img>
+  <h3 class="bottom-left">Top</h3>
+</div>
+
+<!-- END BACK TO TOP  -->
 
 	<!-- Schedule -->
 	<section class="about_descr mt-100">
@@ -1384,6 +1393,26 @@
 
   }
 
+</script>
+
+<script>
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top").style.display = "block";
+    } else {
+        document.getElementById("back-to-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    //document.body.scrollTop = 0;
+    //document.documentElement.scrollTop = 0;
+    $('html, body').animate({scrollTop:0},'slow');
+}
 </script>
 
 </body>
