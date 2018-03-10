@@ -1819,8 +1819,8 @@ SCHEDULE
 -------------------------------- */
 .time-header {
     color: white;
-    position: relative;
-    left: 50%;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .content-container {
@@ -1832,7 +1832,7 @@ SCHEDULE
     border-color: #000;
     border-width: 1px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     background-color: white;
 }
@@ -1844,7 +1844,6 @@ SCHEDULE
     padding: 20px;
     position: relative;
     color: white;
-    font-weight: bold;
     right: 40px;
     max-width: 500px;
 }
@@ -1856,7 +1855,6 @@ SCHEDULE
     padding: 20px;
     position: relative;
     color: white;
-    font-weight: bold;
     right: 40px;
     max-width: 500px;
 }
