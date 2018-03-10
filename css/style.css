@@ -2258,7 +2258,7 @@ FOOTER
 }
 
 .portfolio_item .portfolio_item_hover{
-    cursor: url(../img/read.png), auto;
+    cursor: url(../img/Logos/read.png), auto;
     position: absolute;
     top:0;
     left: 0;
@@ -2454,7 +2454,7 @@ FOOTER
 }
 
 .member-thumb:hover .overlay {
-    cursor: url(../img/eye.png), auto;
+    cursor: url(../img/Logos/eye.png), auto;
     background-color: black;
     opacity: 1.0;
     -webkit-transform: rotateY(0deg) scale(1,1);
