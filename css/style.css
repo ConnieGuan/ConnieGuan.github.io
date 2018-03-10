@@ -223,7 +223,7 @@ section{
     left: 0;
     height: 100%;
     z-index: 1;
-    background-image: url(../img/dot.gif);
+    background-image: url(../img/gif/dot.gif);
     opacity: 0.06;
 }
 
@@ -1113,7 +1113,7 @@ ul.tags li a:hover{
 }
 
 .bg-film:before {
-    background: url(../img/dot.gif);
+    background: url(../img/gif/dot.gif);
     opacity: 0.03;
     content: "";
     left: 0;
@@ -3207,7 +3207,7 @@ ul.services-list li{
 }
 
 .site-hero_Events {
-    background: url("../img/Splash2.jpg") no-repeat;
+    background: url("../img/Events/Splash2.jpg") no-repeat;
     background-attachment: fixed;
     background-position: bottom right;
     background-color: black;
@@ -3301,7 +3301,7 @@ ul.services-list li{
 }
 
 .site-hero-contact {
-    background-image: url("../img/staff2.png");
+    background-image: url("../img/Contact/staff2.png");
     background-repeat: no-repeat;
     background-attachment: top;
     background-position: bottom;
@@ -3312,7 +3312,7 @@ ul.services-list li{
 }
 
 .site-hero-contact2 {
-    background-image: url("../img/staff2.png");
+    background-image: url("../img/Contact/staff2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
