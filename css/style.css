@@ -1668,7 +1668,7 @@ footer a:hover {
 }
 
 .history-section{
-  background: url("../img/static.jpeg") no-repeat;
+  background: url("../img/gif/static.jpeg") no-repeat;
   background-size: cover;
 }
 
@@ -2817,7 +2817,7 @@ FOOTER
 
 
 .site-hero_Home {
-    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background: url("../img/Home/neon2.jpg") no-repeat;
     background-position: bottom right;
     background-color: black;
     background-size: 10$ f20%;
@@ -2827,7 +2827,7 @@ FOOTER
 }
 
 .site-hero_Home2 {
-    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background: url("../img/Home/neon2.jpg") no-repeat;
     background-position: center;
     background-size: 100%;
     background-color: black;
@@ -2839,7 +2839,7 @@ FOOTER
 }
 
 .site-hero_Home3 {
-    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background: url("../img/Home/neon2.jpg") no-repeat;
     background-position: center;
     background-color: black;
     background-size: 10$ f20%;
