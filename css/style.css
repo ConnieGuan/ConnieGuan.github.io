@@ -223,7 +223,7 @@ section{
     left: 0;
     height: 100%;
     z-index: 1;
-    background-image: url(../img/dot.gif);
+    background-image: url(../img/gif/dot.gif);
     opacity: 0.06;
 }
 
@@ -1113,7 +1113,7 @@ ul.tags li a:hover{
 }
 
 .bg-film:before {
-    background: url(../img/dot.gif);
+    background: url(../img/gif/dot.gif);
     opacity: 0.03;
     content: "";
     left: 0;
@@ -1604,7 +1604,7 @@ footer a:hover {
 
 
 .about-hero {
-    background: url("../img/abena-img/Splash7.jpg") no-repeat;
+    background: url("../img/About/Splash7.jpg") no-repeat;
     background-color: black;
     background-size: cover;
     height: 600px;
@@ -1651,7 +1651,7 @@ footer a:hover {
 
 .dark-section{
   background-color: #D53B80;
-  background: url("../img/aboutbackground.png") no-repeat;
+  background: url("../img/About/aboutbackground.png") no-repeat;
   background-size: cover;
   background-position: relative;
   color: white;
@@ -1668,7 +1668,7 @@ footer a:hover {
 }
 
 .history-section{
-  background: url("../img/static.jpeg") no-repeat;
+  background: url("../img/gif/static.jpeg") no-repeat;
   background-size: cover;
 }
 
@@ -2277,7 +2277,7 @@ FOOTER
 }
 
 .portfolio_item .portfolio_item_hover{
-    cursor: url(../img/read.png), auto;
+    cursor: url(../img/Logos/read.png), auto;
     position: absolute;
     top:0;
     left: 0;
@@ -2473,7 +2473,7 @@ FOOTER
 }
 
 .member-thumb:hover .overlay {
-    cursor: url(../img/eye.png), auto;
+    cursor: url(../img/Logos/eye.png), auto;
     background-color: black;
     opacity: 1.0;
     -webkit-transform: rotateY(0deg) scale(1,1);
@@ -2836,7 +2836,7 @@ FOOTER
 
 
 .site-hero_Home {
-    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background: url("../img/Home/neon2.jpg") no-repeat;
     background-position: bottom right;
     background-color: black;
     background-size: 10$ f20%;
@@ -2846,7 +2846,7 @@ FOOTER
 }
 
 .site-hero_Home2 {
-    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background: url("../img/Home/neon2.jpg") no-repeat;
     background-position: center;
     background-size: 100%;
     background-color: black;
@@ -2858,7 +2858,7 @@ FOOTER
 }
 
 .site-hero_Home3 {
-    background: url("../img/abena-img/neon2.jpg") no-repeat;
+    background: url("../img/Home/neon2.jpg") no-repeat;
     background-position: center;
     background-color: black;
     background-size: 10$ f20%;
@@ -3226,7 +3226,7 @@ ul.services-list li{
 }
 
 .site-hero_Events {
-    background: url("../img/Splash2.jpg") no-repeat;
+    background: url("../img/Events/Splash2.jpg") no-repeat;
     background-attachment: fixed;
     background-position: bottom right;
     background-color: black;
@@ -3320,7 +3320,7 @@ ul.services-list li{
 }
 
 .site-hero-contact {
-    background-image: url("../img/staff2.png");
+    background-image: url("../img/Contact/staff2.png");
     background-repeat: no-repeat;
     background-attachment: top;
     background-position: bottom;
@@ -3331,7 +3331,7 @@ ul.services-list li{
 }
 
 .site-hero-contact2 {
-    background-image: url("../img/staff2.png");
+    background-image: url("../img/Contact/staff2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
