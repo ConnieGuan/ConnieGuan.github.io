@@ -1736,6 +1736,25 @@ footer a:hover {
     margin: 10px;
 
 }
+/* --------------------------------
+
+NEW NAV BAR
+
+--------------------------------- */
+
+.nav-pos {
+    
+    top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ffffff00;
+    border-bottom: none;
+}
+
+.active-nav {
+    border-bottom: 2px solid red;
+}
+
 
 /* --------------------------------
 
