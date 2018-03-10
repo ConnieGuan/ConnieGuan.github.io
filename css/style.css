@@ -1604,7 +1604,7 @@ footer a:hover {
 
 
 .about-hero {
-    background: url("../img/abena-img/Splash7.jpg") no-repeat;
+    background: url("../img/About/Splash7.jpg") no-repeat;
     background-color: black;
     background-size: cover;
     height: 600px;
@@ -1651,7 +1651,7 @@ footer a:hover {
 
 .dark-section{
   background-color: #D53B80;
-  background: url("../img/aboutbackground.png") no-repeat;
+  background: url("../img/About/aboutbackground.png") no-repeat;
   background-size: cover;
   background-position: relative;
   color: white;
