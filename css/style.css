@@ -2423,9 +2423,14 @@ FOOTER
     position: relative;
 }
 
+.member-thumb img{
+    width:200
+    height: 400
+}
+
 .team-member span {
     font-size: 13px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     letter-spacing: 1px;
     opacity: .5;
@@ -2464,6 +2469,16 @@ FOOTER
         font-weight: 700;
 }
 
+.team-member h6 span {
+        font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        line-height: 10px;
+        margin-top: 25%;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 700;
+}
+
 .team-member h5 {
         font-size: 26px;
         font-family: "Cantarell", "Times New Roman", sans-serif;
@@ -2492,6 +2507,16 @@ FOOTER
     letter-spacing: 10px;
     margin-top: 25%;
     color:#fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.team-member:hover h6 span {
+    text-transform: uppercase;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    letter-spacing: 10px;
+    margin-top: 25%;
+    color:#000;
     font-size: 25px;
     font-weight: 700;
 }
