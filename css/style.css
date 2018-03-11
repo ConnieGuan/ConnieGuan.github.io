@@ -1104,6 +1104,8 @@ ul.tags li a:hover{
     height: 100vh;
     width: 100%;
     background-image: url(../img/gif/sound6.gif);
+    /*background-image: url(/Users/Agykbon/Library/Containers/com.apple.Preview/Data/Desktop/rainbow-sound.jpg);*/
+
         background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
