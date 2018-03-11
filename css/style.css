@@ -2431,7 +2431,7 @@ FOOTER
 
 .img-staff {
     max-width: 280px;
-    max-height: 500 px;
+    max-height: 400 px;
 }
 
 .team-member span {
@@ -2507,6 +2507,23 @@ FOOTER
     transform: rotateY(0deg) scale(1,1);
 }
 
+.staff-title {
+        font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        line-height: 10px;
+        margin-top: 25%;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: 700;
+}
+
+
+.contact-email {
+    font-family: "Cantarell", "Times New Roman", sans-serif;;
+    color: #00F;
+    font-weight: 400;
+    font-size: 13x;
+}
 
 .team-member:hover h6 {
     text-transform: uppercase;
@@ -2529,7 +2546,7 @@ FOOTER
 }
 
 .team-member:hover p {
-    margin-to
+    margin-top: 
     color: ##D53B80;
     font-size: 18px;
 }
