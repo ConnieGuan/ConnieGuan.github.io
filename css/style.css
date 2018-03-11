@@ -1745,23 +1745,18 @@ NEW NAV BAR
 --------------------------------- */
 
 .nav-pos {
-    font-size: 18px;
-    /*top: 25px;*/
+    
+    top: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    /* background-color: #ffffff00; */
-    background-color: white;
+    background-color: #ffffff00;
     border-bottom: none;
 }
 
 .active-nav {
-    border-bottom: 2px solid #EC8838;
-    color: ;
+    border-bottom: 2px solid red;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #D53B80;
-}
 
 /* --------------------------------
 
