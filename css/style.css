@@ -2418,14 +2418,20 @@ FOOTER
     }
 }
 
+@media (max-width: 480) {
+    .img-staff:
+        max-height: 300px;
+        max-width: 150px;
+}
+
 .member-thumb {
     overflow: hidden;
     position: relative;
 }
 
-.member-thumb img{
-    width:200
-    height: 400
+.img-staff {
+    max-width: 280px;
+    max-height: 500 px;
 }
 
 .team-member span {
@@ -2453,6 +2459,7 @@ FOOTER
     color: #D53B80;
     font-weight: 400;
 }
+
 
 .member-thumb .overlay {
     padding: 100px 0;
