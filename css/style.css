@@ -2479,7 +2479,7 @@ FOOTER
 .member-thumb .overlay p {
     margin-top: 10%;
     font-size: 18px;
-    color: #D53B80;
+    color: #00F;
     font-weight: 400;
 }
 
@@ -2504,7 +2504,7 @@ FOOTER
         font-family: "Cantarell", "Times New Roman", sans-serif;
         line-height: 10px;
         margin-top: 25%;
-        color: #000;
+        color: #D53B80;
         text-transform: uppercase;
         font-weight: 700;
 }
@@ -2541,9 +2541,9 @@ FOOTER
 }
 
 
-.contact-email {
+.team-member p span {
     font-family: "Cantarell", "Times New Roman", sans-serif;
-    color: #00F;
+    color: #000;
     letter-spacing: 5px;
     font-weight: 400;
     font-size: 13x;
@@ -2574,7 +2574,7 @@ FOOTER
     font-family: "Cantarell", "Times New Roman", sans-serif;
     letter-spacing:4px;
     margin-top: 25%;
-    color:#000000;
+    color:#D53B80;
     font-size: 25px;
     font-weight: 700;
 }
