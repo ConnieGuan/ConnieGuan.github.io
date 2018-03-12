@@ -1745,11 +1745,9 @@ NEW NAV BAR
 --------------------------------- */
 
 .nav-pos {
-    
-    top: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #ffffff00;
+    background-color: white;
     border-bottom: none;
 }
 
