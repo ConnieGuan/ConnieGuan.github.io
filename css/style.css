@@ -1614,7 +1614,28 @@ footer a:hover {
     position: relative;
 }
 
+.about-hero2 {
+    background: url("../img/Contact/staff2.png") no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+
 .about-hero .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*text-shadow: 2px 2px #000;*/
+}
+
+.about-hero2 .page-title {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1634,6 +1655,15 @@ footer a:hover {
 **/
 
 .about-hero h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+
+.about-hero2 h2{
     color: white;
     text-transform: uppercase;
     font-weight: 600;
@@ -3382,7 +3412,7 @@ ul.services-list li{
 }
 
 .site-hero-contact {
-    background-image: url("../img/Contact/staff2.png");
+    background-image: url("../img/Contact/contact-small.jpg");
     background-repeat: no-repeat;
     background-attachment: top;
     background-position: bottom;
