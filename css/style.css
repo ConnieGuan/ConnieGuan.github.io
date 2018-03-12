@@ -427,6 +427,8 @@ a{
 }
 
 
+
+
 .module-subtitle2 {
     text-transform: none !important;
     color: #000;
@@ -1775,11 +1777,9 @@ NEW NAV BAR
 --------------------------------- */
 
 .nav-pos {
-    
-    top: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #ffffff00;
+    background-color: white;
     border-bottom: none;
 }
 
@@ -2439,12 +2439,27 @@ FOOTER
     letter-spacing: 10px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 650px) {
     .top-separator {
         top: -48px;
     }
     #facts .bottom-separator{
         bottom: -48px;
+    }
+    .team-member .member-thumb span img {
+        display: inline-block;
+        position: center;
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+@media(min-width: 600px) {
+    .team-member .member-thumb img span {
+        display: inline-block;
+        position: center;
+        max-width: 40%;
+        max-height: 40%;
     }
 }
 
@@ -2460,16 +2475,24 @@ FOOTER
 }
 
 .img-staff {
-    max-width: 280px;
-    max-height: 400 px;
+    max-width: 60%;
+    max-height: 60%;
 }
+
+
+.contact-splash-img {
+    max-width: 100%;
+    max-height: 100%;
+    background-image: 
+}
+
 
 .team-member span {
     font-size: 13px;
     color: #000;
     font-weight: 400;
     letter-spacing: 1px;
-    opacity: .5;
+    opacity: 1.0;
 }
 
 .member-thumb .overlay h6 {
@@ -2486,13 +2509,13 @@ FOOTER
 .member-thumb .overlay p {
     margin-top: 10%;
     font-size: 18px;
-    color: #D53B80;
+    color: #00F;
     font-weight: 400;
 }
 
 
 .member-thumb .overlay {
-    padding: 100px 0;
+    padding: 50px 0;
     line-height: 24px;
 }
 
@@ -2511,7 +2534,7 @@ FOOTER
         font-family: "Cantarell", "Times New Roman", sans-serif;
         line-height: 10px;
         margin-top: 25%;
-        color: #000;
+        color: #D53B80;
         text-transform: uppercase;
         font-weight: 700;
 }
@@ -2548,9 +2571,9 @@ FOOTER
 }
 
 
-.contact-email {
+.team-member p span {
     font-family: "Cantarell", "Times New Roman", sans-serif;
-    color: #00F;
+    color: #000;
     letter-spacing: 5px;
     font-weight: 400;
     font-size: 13x;
@@ -2581,7 +2604,7 @@ FOOTER
     font-family: "Cantarell", "Times New Roman", sans-serif;
     letter-spacing:4px;
     margin-top: 25%;
-    color:#000000;
+    color:#D53B80;
     font-size: 25px;
     font-weight: 700;
 }
@@ -3267,18 +3290,42 @@ ul.services-list li{
 
 -------------------------------- */
 
-.default-btn-events {
+.module-subtitle-events{
+    text-transform: none !important;
+    color: #000;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 20px;
+} 
+
+
+.default-btn-events-fb {
     position: relative;
     display: inline-block;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    padding: 0 0 10px;
     font-size: 14px;
     letter-spacing: 1px;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-bottom: 5%;
     font-weight: 400;
 }
 
-.default-btn-events i {
+.default-btn-events-google {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+
+.default-btn-events-fb i {
     opacity: 0;
     position: absolute;
     font-size: 25px;
@@ -3289,16 +3336,69 @@ ul.services-list li{
     color:#ccc;
 }
 
+
+.default-btn-events-fb:hover i {
+    opacity: 1;
+    right: -30px;
+}
+
+.default-btn-events-fb:hover:after {
+    width: 100%;
+}
+
+.default-btn-events-fb:after {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #ccc;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.default-btn-events-google i {
+    opacity: 0;
+    position: absolute;
+    font-size: 25px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    right: 30px;
+    top: 0;
+    color:#ccc;
+}
+
+.default-btn-events-google:hover i {
+    opacity: 1;
+    right: -30px;
+}
+
+.default-btn-events-google:hover:after {
+    width: 100%;
+}
+
+.default-btn-events-google:after {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #ccc;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
 .button-event {
-    background-color: #D53B80; 
+    color: #D53B80; 
     border: none;
-    color: white;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: block;
     font-size: 18px;
-    margin: auto;
+    margin-left: 100px;
     margin-bottom: 10px;
     cursor: pointer; 
 }
@@ -3333,7 +3433,7 @@ ul.services-list li{
     text-transform: uppercase;
     color: #D53B80;
     letter-spacing: 5px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 35px;
 }
 
@@ -3428,11 +3528,45 @@ ul.services-list li{
     background-position: center;
     background-size: 100%;
     background-color: black;
-    height: 500px;
+    min-height: 810px;
     width: 100%;
     position: relative;
     display: block;
     margin: auto;
+}
+
+.site-hero-contact3 {
+    background-image: url("../img/Contact/staff2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    min-height: 280px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 640px) 
+{
+    .site-hero-contact2
+    {
+        display: none;
+    }
+
+    .img-staff {
+        width: 30%
+        height: 30%;
+    }
+}
+
+@media (min-width: 750px) 
+{
+    .site-hero-contact3
+    {
+        display: none;
+    }
 }
 
 ul.staff-list li{
