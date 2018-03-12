@@ -3732,6 +3732,22 @@ ul.staff-list li{
         height: 0px;
     }
 
+    .box-intro {
+        text-align: center;
+        display: table;
+        height: 100vh;
+        width: 100%;
+        background-image: url(../img/Home/homepage-splash.jpg);
+        /*background-image: url(/Users/Agykbon/Library/Containers/com.apple.Preview/Data/Desktop/rainbow-sound.jpg);*/
+
+            background-attachment: fixed;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .site-hero_Home3 {
         background: none;
         height: 0px;
