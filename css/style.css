@@ -1425,14 +1425,25 @@ footer a:hover {
     text-decoration: none;
 }
 
+.footer-right {
+    position: relative;
+    text-align: center;
+}
+
 .logo-footer{
-        margin-bottom: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-widget {
+    padding-bottom: 20px;
 }
 
 .footer-widget h4 {
         color: #777;
         text-transform: uppercase;
-        margin-bottom: 30px;
         font-size: 15px;
         position: relative;
         z-index: 2;
@@ -1442,6 +1453,7 @@ footer a:hover {
     display: inline-block;
     margin-right: 4px;
     margin-bottom: 4px;
+    text-align: center;
 }
 
 .contact-widget ul.social-icons li a i {
@@ -1556,8 +1568,7 @@ footer a:hover {
     footer.main-footer *{
         text-align: center;
     }
-    footer.main-footer ul.social-icons{
-        float: left;     
+    footer.main-footer ul.social-icons{    
         width: 100%;
         text-align: center;
     }
@@ -1580,11 +1591,10 @@ footer a:hover {
     }
 
     footer.main-footer *{
-        text-align: left;
+        text-align: center;
     }
 
     footer.main-footer ul.social-icons{
-        float: left;
         width: 100%;
         text-align: center;
     }
@@ -2001,7 +2011,7 @@ SCHEDULE
 @media screen and (max-width:650px){
 
   .nav-tabs > li > .tab{
-    width: 45px;
+    width: 40px;
     font-size: 20px;
     padding: 10px;
     margin-left:0px;
@@ -2033,11 +2043,11 @@ FOOTER
 ---------------------------------*/
 
 .footerText {
-    padding: 15px;
+    padding: 0px;
+    font-size: 14px;
 }
 
 .social-icons {
-    float: left;
     display: inline-block;
     bottom: 100px;
 }
