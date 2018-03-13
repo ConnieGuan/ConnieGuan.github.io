@@ -1622,6 +1622,8 @@ footer a:hover {
     height: 600px;
     width: 100%;
     position: relative;
+    background-attachment: fixed;
+    background-position: center top;
 }
 
 .about-hero2 {
@@ -1714,9 +1716,15 @@ footer a:hover {
   background-size: cover;
 }
 
-.history-section-text{
+.mission-section-text{
   color:white;
   font-weight: 400;
+}
+
+.mission-background{
+  background: url("../img/About/IMG_1626.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 
 .get-involved-section {
@@ -2957,7 +2965,6 @@ FOOTER
     width: 100%;
     position: relative;
 }
-
 
 
 .site-hero_Home {
