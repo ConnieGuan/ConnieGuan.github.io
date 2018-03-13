@@ -1694,8 +1694,7 @@ footer a:hover {
 }
 
 .dark-section{
-  background-color: #D53B80;
-  background: url("../img/About/aboutbackground.png") no-repeat;
+  background-color: #353789;
   background-size: cover;
   background-position: relative;
   color: white;
