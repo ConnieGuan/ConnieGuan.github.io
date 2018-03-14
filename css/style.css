@@ -1633,15 +1633,6 @@ footer a:hover {
     background-position: center top;
 }
 
-.about-hero2 {
-    background: url("../img/Contact/staff2.png") no-repeat;
-    background-color: black;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
-
 
 .about-hero .page-title {
     position: absolute;
@@ -1723,7 +1714,7 @@ footer a:hover {
     border-color: #000;
     border-width: 1px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     background-color: white;
     transform: skewY(-1deg);
@@ -1756,9 +1747,8 @@ footer a:hover {
 }
 
 .about-showImg {
-    max-width: 300px;
-    margin: 0px;
-
+    width:100%;
+    margin-top: 10px;
 }
 
 
@@ -2497,6 +2487,19 @@ FOOTER
     max-width: 60%;
     max-height: 60%;
 }
+
+.img-playing {
+    padding: 3px;
+    border:4px solid #D63B80;;
+    background-color:white;
+}
+
+.img-playing2 {
+    padding: 3px;
+    border:4px solid white;
+    background-color:white;
+}
+
 
 
 .contact-splash-img {
