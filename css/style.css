@@ -2522,10 +2522,11 @@ FOOTER
         font-family: "Cantarell", "Times New Roman", sans-serif;
         letter-spacing: 10px;
         line-height: 24px;
-        margin-top: 25%;
+        margin-top: 15%;
         text-transform: uppercase;
-        color: #fff;
+        color: #000;
         font-weight: 700;
+        padding: 0px 10px 0px 10px;
 }
 
 .member-thumb .overlay p {
@@ -2546,7 +2547,7 @@ FOOTER
         font-size: 26px;
         font-family: "Cantarell", "Times New Roman", sans-serif;
         line-height: 10px;
-        margin-top: 25%;
+        margin-top: 15%;
         color: #333;
         text-transform: uppercase;
         font-weight: 700;
@@ -2567,14 +2568,14 @@ FOOTER
         font-family: "Cantarell", "Times New Roman", sans-serif;
         line-height: 10px;
         margin: 30px 0 15px;
-        color: #333;
+        color: #fff;
         text-transform: uppercase;
         font-weight: 500;
 }
 
 .member-thumb:hover .overlay {
     cursor: url(../img/Logos/eye.png), auto;
-    background-color: black;
+    background-color: white;
     opacity: 1.0;
     -webkit-transform: rotateY(0deg) scale(1,1);
     -moz-transform: rotateY(0deg) scale(1,1);
@@ -2606,8 +2607,8 @@ FOOTER
     text-transform: uppercase;
     font-family: "Cantarell", "Times New Roman", sans-serif;
     letter-spacing: 10px;
-    margin-top: 25%;
-    color:#fff;
+    margin-top: 15%;
+    color:#000;
     font-size: 25px;
     font-weight: 700;
 }
@@ -2806,7 +2807,7 @@ FOOTER
 -------------------------------- */
 
 .testimonials {
-    padding: 100px 0 100px;
+    padding: 250px 0 250px;
     color: #fff;
 }
 
@@ -2863,7 +2864,7 @@ FOOTER
 
 @media only screen and (max-width : 768px){
     #testimonials {
-    padding: 200px 0 200px;
+    padding: 100px 0 300px;
     color: #fff;
 }
     }
