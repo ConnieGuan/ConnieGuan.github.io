@@ -423,7 +423,6 @@ a{
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
     font-size: 20px;
-    margin-bottom: 50px;
 }
 
 
@@ -517,6 +516,14 @@ a{
   text-transform: uppercase;
   letter-spacing: 10px;
   color:white;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.section-title-4 h2{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color:black;
   font-size: 40px;
   font-weight: 400;
 }
@@ -1675,6 +1682,12 @@ footer a:hover {
 
 .dark-section-text{
   color:white;
+  font-weight: 600;
+  text-shadow: 0px 2px #ff0000;
+}
+
+.dark-section-text-concert{
+  color:black;
   font-weight: 600;
   text-shadow: 0px 2px #ff0000;
 }
@@ -2975,6 +2988,13 @@ FOOTER
 .section-title-events h2{
   letter-spacing: 10px;
   color:white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.section-title-events-black h2{
+  letter-spacing: 10px;
+  color:black;
   font-size: 25px;
   font-weight: 400;
 }
