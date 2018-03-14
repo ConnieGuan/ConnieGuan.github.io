@@ -77,8 +77,8 @@ ol, ul {
 }
 
 p{
-    color: #777;
-    font-size: 15px;
+    color: #5F5F5F;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -425,8 +425,6 @@ a{
     font-size: 20px;
     margin-bottom: 50px;
 }
-
-
 
 
 .module-subtitle2 {
@@ -1615,8 +1613,17 @@ footer a:hover {
 
 }
 
+.module-subtitle-about{
+    text-transform: none !important;
+    color: #000;
+    font-family: "Cantarell", "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
 .about-hero {
-    background: url("../img/About/Splash7.jpg") no-repeat;
+    background: url("../img/About/Splash13.jpg") no-repeat;
     background-color: black;
     background-size: cover;
     height: 600px;
@@ -1644,27 +1651,10 @@ footer a:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    /*text-shadow: 2px 2px #000;*/
+    /**background-color: #D53B80;
+    padding: 0px 20px 0px 20px;**/
 }
 
-.about-hero2 .page-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    /*text-shadow: 2px 2px #000;*/
-}
-
-/**
-.page-title {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0px 0px 50px 0px;
-    
-}
-**/
 
 .about-hero h2{
     color: white;
@@ -1675,14 +1665,6 @@ footer a:hover {
     letter-spacing: 10px
 }
 
-.about-hero2 h2{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 2;
-    letter-spacing: 10px
-}
 
 
 .about-small-title{
@@ -1721,7 +1703,7 @@ footer a:hover {
 }
 
 .mission-background{
-  background: url("../img/About/IMG_1626.jpg") no-repeat;
+  background: url("../img/About/jammin.jpg") no-repeat;
   background-size:cover;
   background-position: center;
 }
@@ -1774,17 +1756,12 @@ footer a:hover {
 }
 
 .about-showImg {
-    max-width: 200px;
-    margin: 10px;
+    max-width: 300px;
+    margin: 0px;
 
 }
 
-.about-showImg2 {
-    max-width: 160px;
-    max-width: auto;
-    margin: 10px;
 
-}
 /* --------------------------------
 
 NEW NAV BAR
@@ -1799,9 +1776,24 @@ NEW NAV BAR
 }
 
 .active-nav {
-    border-bottom: 2px solid #EC8838;
+    border-bottom: 2px solid #D53B80;
 }
 
+.navbar-header > p {
+    font-size: 12px;
+}
+
+.navbar-text {
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+#navbar-button {
+    width: 50px;
+    font-size: 12px;
+
+}
 
 /* --------------------------------
 
@@ -1918,7 +1910,6 @@ SCHEDULE
 .card-title-pm {
     border-style: none;
     border-width: 1px;
-    /*background-color: #5688BF;*/
     background-color: #353789;
     padding: 20px;
     position: relative;
