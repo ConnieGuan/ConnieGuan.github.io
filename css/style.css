@@ -1930,6 +1930,9 @@ SCHEDULE
     max-width: 500px;
 }
 
+
+
+
 .card-block {
     font-size: 16px;
 }
@@ -2460,6 +2463,10 @@ FOOTER
         max-width: 50%;
         max-height: 50%;
     }
+
+    .member-thumb {
+        margin-left: 5%;
+    }
 }
 
 @media(min-width: 600px) {
@@ -2477,9 +2484,13 @@ FOOTER
         max-width: 150px;
 }
 
+
+
+}
 .member-thumb {
     overflow: hidden;
     position: relative;
+
 }
 
 .img-staff {
@@ -2519,6 +2530,7 @@ FOOTER
     font-size: 18px;
     color: #D42880;
     font-weight: 400;
+
 }
 
 
@@ -3327,7 +3339,7 @@ ul.services-list li{
     transition: all .3s ease-in-out;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-left: 38%;
+    margin-left: 20%;
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
@@ -3340,7 +3352,7 @@ ul.services-list li{
     transition: all .3s ease-in-out;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-left: 33%;
+    margin-left: 20%;
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
