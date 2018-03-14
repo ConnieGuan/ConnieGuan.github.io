@@ -423,7 +423,6 @@ a{
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
     font-size: 20px;
-    margin-bottom: 50px;
 }
 
 
@@ -521,6 +520,14 @@ a{
   font-weight: 400;
 }
 
+.section-title-4 h2{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color:black;
+  font-size: 40px;
+  font-weight: 400;
+}
+
 .section-title-parralax h2{
         text-transform: uppercase;
         letter-spacing: 10px;
@@ -552,6 +559,19 @@ a{
     margin: auto;
     cursor: pointer;
     height: 
+}
+
+.button-home3 {
+    background-color: #D53B80; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: auto;
+    cursor: pointer;
 }
 
 .button-home2 {
@@ -1651,11 +1671,10 @@ footer a:hover {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 45px;
     line-height: 2;
     letter-spacing: 10px
 }
-
 
 
 .about-small-title{
@@ -1675,6 +1694,12 @@ footer a:hover {
 
 .dark-section-text{
   color:white;
+  font-weight: 600;
+  text-shadow: 0px 2px #ff0000;
+}
+
+.dark-section-text-concert{
+  color:black;
   font-weight: 600;
   text-shadow: 0px 2px #ff0000;
 }
@@ -1919,6 +1944,9 @@ SCHEDULE
     right: 40px;
     max-width: 500px;
 }
+
+
+
 
 .card-block {
     font-size: 16px;
@@ -2450,6 +2478,10 @@ FOOTER
         max-width: 50%;
         max-height: 50%;
     }
+
+    .member-thumb {
+        margin-left: 5%;
+    }
 }
 
 @media(min-width: 600px) {
@@ -2467,9 +2499,13 @@ FOOTER
         max-width: 150px;
 }
 
+
+
+}
 .member-thumb {
     overflow: hidden;
     position: relative;
+
 }
 
 .img-staff {
@@ -2511,10 +2547,11 @@ FOOTER
         font-family: "Cantarell", "Times New Roman", sans-serif;
         letter-spacing: 10px;
         line-height: 24px;
-        margin-top: 25%;
+        margin-top: 15%;
         text-transform: uppercase;
-        color: #fff;
+        color: #000;
         font-weight: 700;
+        padding: 0px 10px 0px 10px;
 }
 
 .member-thumb .overlay p {
@@ -2522,6 +2559,7 @@ FOOTER
     font-size: 18px;
     color: #D42880;
     font-weight: 400;
+
 }
 
 
@@ -2534,7 +2572,7 @@ FOOTER
         font-size: 26px;
         font-family: "Cantarell", "Times New Roman", sans-serif;
         line-height: 10px;
-        margin-top: 25%;
+        margin-top: 15%;
         color: #333;
         text-transform: uppercase;
         font-weight: 700;
@@ -2555,14 +2593,14 @@ FOOTER
         font-family: "Cantarell", "Times New Roman", sans-serif;
         line-height: 10px;
         margin: 30px 0 15px;
-        color: #333;
+        color: #fff;
         text-transform: uppercase;
         font-weight: 500;
 }
 
 .member-thumb:hover .overlay {
     cursor: url(../img/Logos/eye.png), auto;
-    background-color: black;
+    background-color: white;
     opacity: 1.0;
     -webkit-transform: rotateY(0deg) scale(1,1);
     -moz-transform: rotateY(0deg) scale(1,1);
@@ -2594,8 +2632,8 @@ FOOTER
     text-transform: uppercase;
     font-family: "Cantarell", "Times New Roman", sans-serif;
     letter-spacing: 10px;
-    margin-top: 25%;
-    color:#fff;
+    margin-top: 15%;
+    color:#000;
     font-size: 25px;
     font-weight: 700;
 }
@@ -2794,7 +2832,7 @@ FOOTER
 -------------------------------- */
 
 .testimonials {
-    padding: 100px 0 100px;
+    padding: 200px 0 200px;
     color: #fff;
 }
 
@@ -2851,7 +2889,7 @@ FOOTER
 
 @media only screen and (max-width : 768px){
     #testimonials {
-    padding: 200px 0 200px;
+    padding: 100px 0 300px;
     color: #fff;
 }
     }
@@ -2962,6 +3000,13 @@ FOOTER
 .section-title-events h2{
   letter-spacing: 10px;
   color:white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.section-title-events-black h2{
+  letter-spacing: 10px;
+  color:black;
   font-size: 25px;
   font-weight: 400;
 }
@@ -3330,7 +3375,7 @@ ul.services-list li{
     transition: all .3s ease-in-out;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-left: 38%;
+    margin-left: 20%;
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
@@ -3343,7 +3388,7 @@ ul.services-list li{
     transition: all .3s ease-in-out;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-left: 33%;
+    margin-left: 20%;
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
