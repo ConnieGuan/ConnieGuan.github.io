@@ -1671,11 +1671,10 @@ footer a:hover {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 45px;
     line-height: 2;
     letter-spacing: 10px
 }
-
 
 
 .about-small-title{
@@ -1856,7 +1855,7 @@ BACK TO TOP
 }
 
 #topImg-home {
-  width: 70px;
+  width: 60px;
   height: auto;
 }
 
@@ -1882,7 +1881,7 @@ BACK TO TOP
     font-weight: bold;
     position: absolute;
     bottom: -20px;
-    left: 26px;
+    left: 22px;
 }
 
 
