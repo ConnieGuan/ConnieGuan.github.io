@@ -334,63 +334,67 @@
 
 	</section>
 
-
-    <section id="contact" class="contact mbr-box mbr-section mbr-section--relative mbr-section--bg-adapted" style="background-color: white">
-        <div class="container" style="background-color: white;padding:0px 0px 50px 0px">
-            <div class="col-sm-12">
-                <div class="row center mt-50" >
-                    <h4 style="font-size: 25px;"> EVENT PHOTOS</h4>
-                    <p class="libre-text mt-50 mb-50" style="padding-left: 125px; padding-right: 125px; font-size: 16px;">Don't forget to find your beautiful face in our Events Gallery! We love taking photos of both artists and students at concerts! Creep us on flickr and feel free to tag yourself or your friends!</p>
-
-                    <!--CAROUSEL-->
-                    <div class="autoplay mb-50">      
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic1.jpg" alt="img" style="width:100%;">
-                        </div>
-
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic2.jpg" alt="img" style="width:100%">
-                        </div>
-                    
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic3.jpg" alt="img" style="width:100%">
-                        </div>
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic4.jpg" alt="img" style="width:100%">
-                        </div>
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic5.jpg" alt="img" style="width:100%">
-                        </div>
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic6.jpg" alt="img" style="width:100%">
-                        </div>
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic7.jpg" alt="img" style="width:100%">
-                        </div>
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic8.jpg" alt="img" style="width:100%">
-                        </div>
-
-                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
-                            <img src="../img/About/carousel/openmic9.jpg" alt="img" style="width:100%">
-                        </div>
+    <!-- EVENT PHOTOS SECTION -->
+    <section class="about_descr">
+        <div class="container carousel-container">
+            <div class="row center">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 mt-50 mb-40">
+                    <div class="section-title">
+                        <h2 class="mb-50" style="font-size: 25px;">EVENT PHOTOS</h2>
+                        <p class="libre-text mt-50 mb-50" style="padding-left: 25px; padding-right: 25px; font-size: 16px;">Don't forget to find your beautiful face in our Events Gallery! We love taking photos of both artists and students at concerts! Creep us on flickr and feel free to tag yourself or your friends!</p>
                     </div>
-                    <!--END OF CAROUSEL-->
-
-
-                    <a href="https://www.flickr.com/photos/138845705@N02/albums/with/72157693978737415" target="_blank">
-                        <button class="button-home">View Flickr</button>
-                    </a>
                 </div>
             </div>
+
+            <!--BEGIN CAROUSEL-->
+            <div class="responsive mb-50">      
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic1.jpg" alt="img" style="width:100%;">
+                </div>
+
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic2.jpg" alt="img" style="width:100%">
+                </div>
+            
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic3.jpg" alt="img" style="width:100%">
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic4.jpg" alt="img" style="width:100%">
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic5.jpg" alt="img" style="width:100%">
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic6.jpg" alt="img" style="width:100%">
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic7.jpg" alt="img" style="width:100%">
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic8.jpg" alt="img" style="width:100%">
+                </div>
+
+                <div class="col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                    <img src="../img/About/carousel/openmic9.jpg" alt="img" style="width:100%">
+                </div>
+
+            </div>
+            <!--END CAROUSEL-->
         </div>
+
+        <a href="https://www.flickr.com/photos/138845705@N02/albums/with/72157693978737415" target="_blank">
+            <button class="button-home">View Flickr</button>
+        </a>
+
     </section>
+    <!--END OF EVENT PHOTOS SECTION-->
 
 
     <!-- FOOTER -->
@@ -500,7 +504,7 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
-            $('.autoplay').slick({
+            $('.responsive').slick({
               slidesToShow: 4,
               slidesToScroll: 1,
               autoplay: false,
@@ -543,27 +547,6 @@
             });
          });
     </script>
-
-
-
-	<script type="text/javascript">
-		/*$(document).ready(function(){
-			$('.autoplay').slick({
-			  slidesToShow: 2,
-			  slidesToScroll: 1,
-			  autoplay: false,
-			  autoplaySpeed: 2000,
-			  arrows: true,
-			  responsive: [
-			   {
-			   	breakpoint: 480,
-			   	display: none
-			   	}
-			   }
-			  ]
-			});
-		 });*/
-	</script>
 
 </body>
 </html>
