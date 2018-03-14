@@ -1911,6 +1911,12 @@ SCHEDULE
     background-color: white;
 }
 
+.card-contact {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
 .card-title-am {
     border-style: none;
     border-width: 1px;
@@ -2508,6 +2514,13 @@ FOOTER
     position: relative;
 
 }
+
+.staff-meeting-thumb {
+    overflow: hidden;
+    position: relative;
+
+}
+
 
 .img-staff {
     max-width: 60%;
