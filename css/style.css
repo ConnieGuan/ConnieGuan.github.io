@@ -2496,6 +2496,19 @@ FOOTER
     max-height: 60%;
 }
 
+.img-playing {
+    padding: 3px;
+    border:4px solid #D63B80;;
+    background-color:white;
+}
+
+.img-playing2 {
+    padding: 3px;
+    border:4px solid white;
+    background-color:white;
+}
+
+
 
 .contact-splash-img {
     max-width: 100%;
