@@ -1799,9 +1799,24 @@ NEW NAV BAR
 }
 
 .active-nav {
-    border-bottom: 2px solid #EC8838;
+    border-bottom: 2px solid #D53B80;
 }
 
+.navbar-header > p {
+    font-size: 12px;
+}
+
+.navbar-text {
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+#navbar-button {
+    width: 50px;
+    font-size: 12px;
+
+}
 
 /* --------------------------------
 
@@ -1918,7 +1933,6 @@ SCHEDULE
 .card-title-pm {
     border-style: none;
     border-width: 1px;
-    /*background-color: #5688BF;*/
     background-color: #353789;
     padding: 20px;
     position: relative;
