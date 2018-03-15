@@ -2972,7 +2972,20 @@ FOOTER
     margin: 10px;
     background-color: white;
     height: 165px;
+    position: relative;
 }
+
+.contact-card-artists {
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 0px 25px 0px 25px;
+    background-color: white;
+    height: 135px;
+    width: 100%;
+}
+
 
 .newsletter{
         border-left: 1px dashed #e0e0e1;
@@ -3603,9 +3616,10 @@ ul.services-list li{
     color: #D42880;
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 800px;
+    font-size: 25px;
 }
+
 
 .small-title-contact{
     color: #777;
@@ -3613,10 +3627,11 @@ ul.services-list li{
     letter-spacing: 1px;
     font-size: 12px;
     text-align: center;
+    height: 200px;
 }
 
 .small-title-contact2{
-        color: #777;
+    color: #777;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: lowercase;
@@ -3627,15 +3642,16 @@ ul.services-list li{
     color: #000;
     font-weight: 900;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .small-title-contact3 span {
     color: #00F;;
     font-weight: 500;
-    font-style: italic;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 15px;
+    text-transform: lowercase;
+
 }
 
 .site-hero-contact {
