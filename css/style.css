@@ -2525,7 +2525,6 @@ FOOTER
 .member-thumb {
     overflow: hidden;
     position: relative;
-
 }
 
 .staff-meeting-thumb {
@@ -2556,6 +2555,7 @@ FOOTER
     border:1px solid #D63B80;
     background-color:white;
 }
+
 
 
 
@@ -2595,6 +2595,19 @@ FOOTER
 
 }
 
+.giveaway-details h5 {
+        font-size: 26px;
+        font-family: "Cantarell", "Times New Roman", sans-serif;
+        line-height: 10px;
+        margin: 30px 0 15px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+}
+
+.giveaway-image {
+    border: 5px solid black;
+}
 
 .member-thumb .overlay {
     padding: 50px 0;
