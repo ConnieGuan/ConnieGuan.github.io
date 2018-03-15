@@ -2961,6 +2961,17 @@ FOOTER
         color: #777;
 }
 
+.contact-card {
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    height: 165px;
+}
+
 .newsletter{
         border-left: 1px dashed #e0e0e1;
     padding-left: 50px;
