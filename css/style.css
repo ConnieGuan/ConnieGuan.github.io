@@ -523,7 +523,7 @@ a{
 .section-title-4 h2{
   text-transform: uppercase;
   letter-spacing: 10px;
-  color:black;
+  color:white;
   font-size: 60px;
   font-weight: 400;
 }
@@ -1624,6 +1624,11 @@ footer a:hover {
 03.ABOUT US
 
 -------------------------------- */
+
+#service-cards {
+
+}
+
 .km-space {
     height: 60px;
 }
@@ -1742,7 +1747,6 @@ footer a:hover {
     padding: 20px;
     margin: 10px;
     background-color: white;
-    transform: skewY(-1deg);
 }
 
 .about-card-title {
@@ -1907,6 +1911,18 @@ SCHEDULE
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    background-color: white;
+}
+
+.card-event {
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    height: 100%;
+    max-height: 400px;
     background-color: white;
 }
 
