@@ -561,7 +561,7 @@ a{
     height: 
 }
 
-.button-home3 {
+.button-events {
     background-color: #D53B80; 
     border: none;
     color: white;
@@ -570,7 +570,9 @@ a{
     text-decoration: none;
     display: block;
     font-size: 18px;
-    margin: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
     cursor: pointer;
 }
 
@@ -1913,7 +1915,7 @@ SCHEDULE
 .card-event {
     border-style: solid;
     border-color: #000;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 5px;
     padding: 10px;
     margin: 0px 10px 0px 10px;
@@ -2863,7 +2865,7 @@ FOOTER
 -------------------------------- */
 
 .testimonials {
-    padding: 200px 0 200px;
+    padding: 175px 0 175px;
     color: #fff;
 }
 
@@ -2976,6 +2978,30 @@ FOOTER
         margin-top: 40px !important;
         color: #777;
 }
+
+.contact-card {
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    height: 165px;
+    position: relative;
+}
+
+.contact-card-artists {
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 0px 25px 0px 25px;
+    background-color: white;
+    height: 135px;
+    width: 100%;
+}
+
 
 .newsletter{
         border-left: 1px dashed #e0e0e1;
@@ -3426,6 +3452,7 @@ ul.services-list li{
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
+    color: #D53B80;
 }
 
 .default-btn-events-google {
@@ -3439,6 +3466,7 @@ ul.services-list li{
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
+    color: #D53B80;
 }
 
 .default-btn-events-fb i {
@@ -3506,6 +3534,13 @@ ul.services-list li{
     transition: all .3s ease-in-out;
 }
 
+.events-card-text {
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-color: black;
+
+}
+
 .button-event {
     color: #D53B80; 
     border: none;
@@ -3553,10 +3588,14 @@ ul.services-list li{
     margin-bottom: 35px;
 }
 
+
+
 .event-link{
     color: #fff;
     font-size: 20px;
     text-align: center;
+    padding-left:8px; 
+    color: #D53B80
 }
 
 
@@ -3593,9 +3632,10 @@ ul.services-list li{
     color: #D42880;
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 800px;
+    font-size: 25px;
 }
+
 
 .small-title-contact{
     color: #777;
@@ -3603,10 +3643,11 @@ ul.services-list li{
     letter-spacing: 1px;
     font-size: 12px;
     text-align: center;
+    height: 200px;
 }
 
 .small-title-contact2{
-        color: #777;
+    color: #777;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: lowercase;
@@ -3617,15 +3658,16 @@ ul.services-list li{
     color: #000;
     font-weight: 900;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .small-title-contact3 span {
     color: #00F;;
     font-weight: 500;
-    font-style: italic;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 15px;
+    text-transform: lowercase;
+
 }
 
 .site-hero-contact {
