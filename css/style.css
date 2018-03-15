@@ -2544,7 +2544,7 @@ FOOTER
 
 .img-playing {
     padding: 3px;
-    border:4px solid #D63B80;;
+    border:4px solid #D63B80;
     background-color:white;
 }
 
@@ -2553,6 +2553,12 @@ FOOTER
     border:4px solid white;
     background-color:white;
 }
+
+.img-playing3 {
+    border:1px solid #D63B80;
+    background-color:white;
+}
+
 
 
 
