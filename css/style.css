@@ -561,7 +561,7 @@ a{
     height: 
 }
 
-.button-home3 {
+.button-events {
     background-color: #D53B80; 
     border: none;
     color: white;
@@ -570,7 +570,9 @@ a{
     text-decoration: none;
     display: block;
     font-size: 18px;
-    margin: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
     cursor: pointer;
 }
 
@@ -1913,7 +1915,7 @@ SCHEDULE
 .card-event {
     border-style: solid;
     border-color: #000;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 5px;
     padding: 10px;
     margin: 0px 10px 0px 10px;
@@ -2863,7 +2865,7 @@ FOOTER
 -------------------------------- */
 
 .testimonials {
-    padding: 200px 0 200px;
+    padding: 175px 0 175px;
     color: #fff;
 }
 
@@ -3421,6 +3423,7 @@ ul.services-list li{
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
+    color: #D53B80;
 }
 
 .default-btn-events-google {
@@ -3434,6 +3437,7 @@ ul.services-list li{
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
+    color: #D53B80;
 }
 
 .default-btn-events-fb i {
@@ -3501,6 +3505,13 @@ ul.services-list li{
     transition: all .3s ease-in-out;
 }
 
+.events-card-text {
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-color: black;
+
+}
+
 .button-event {
     color: #D53B80; 
     border: none;
@@ -3548,10 +3559,14 @@ ul.services-list li{
     margin-bottom: 35px;
 }
 
+
+
 .event-link{
     color: #fff;
     font-size: 20px;
     text-align: center;
+    padding-left:8px; 
+    color: #D53B80
 }
 
 
