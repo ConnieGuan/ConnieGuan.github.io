@@ -1694,7 +1694,6 @@ footer a:hover {
     letter-spacing: 10px
 }
 
-
 .about-small-title{
     color: white;
     font-weight: 700;
@@ -3233,6 +3232,25 @@ FOOTER
     letter-spacing: 10px
 }
 
+.site-hero-contact4 .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.site-hero-contact4 h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 2;
+    letter-spacing: 10px
+}
+
 .small-title-Events{
             color: #fff;
     font-weight: 700;
@@ -3777,6 +3795,17 @@ ul.services-list li{
     position: relative;
     display: block;
     margin: auto;
+}
+
+.site-hero-contact4 {
+    background: url("../img/Contact/staff2.png") no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center top;
 }
 
 @media (max-width: 640px) 
