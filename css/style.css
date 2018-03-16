@@ -555,11 +555,26 @@ a{
     text-align: center;
     text-decoration: none;
     display: block;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+    height: 
+}
+
+.button-home-copy {
+    background-color: #D53B80; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
     font-size: 18px;
     margin: auto;
     cursor: pointer;
     height: 
 }
+
 
 .button-events {
     background-color: #D53B80; 
@@ -593,7 +608,8 @@ a{
     background-color: #D53B80; 
     border: none;
     color: white;
-    padding: 13px 75px;
+    /*padding: 15px 75px;*/
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
