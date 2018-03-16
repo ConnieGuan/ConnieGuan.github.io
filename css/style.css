@@ -1604,7 +1604,7 @@ footer a:hover {
     footer.main-footer *{
         text-align: center;
     }
-    footer.main-footer ul.social-icons{    
+    footer.main-footer > ul.social-icons{    
         width: 100%;
         text-align: center !important;
     }
@@ -1631,7 +1631,6 @@ footer a:hover {
     }
 
     footer.main-footer ul.social-icons{
-        width: 100%;
         text-align: center;
     }
 }
