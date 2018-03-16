@@ -1590,7 +1590,7 @@ footer a:hover {
     }
     footer.main-footer > ul.social-icons{    
         width: 100%;
-        text-align: center;
+        text-align: center !important;
     }
 
     footer.main-footer nav.footer-nav ul li{
@@ -1914,7 +1914,7 @@ SCHEDULE
 .card-event {
     border-style: solid;
     border-color: #000;
-    border-width: 5px;
+    border-width: 2px;
     border-radius: 5px;
     padding: 10px;
     margin: 0px 10px 0px 10px;
@@ -3696,7 +3696,7 @@ ul.services-list li{
 }
 
 .site-hero-contact {
-    background-image: url("../img/Contact/contact-small.jpg");
+    background-image: url("../img/Contact/staff2.png");
     background-repeat: no-repeat;
     background-attachment: top;
     background-position: bottom;
@@ -3940,5 +3940,10 @@ ul.staff-list li{
     .site-hero_Home2 {
         background: none;
         height: 0px;
+    }
+
+    .team-member {
+        padding-bottom: 50px;
+
     }
 }
