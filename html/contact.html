@@ -73,6 +73,13 @@
 	</div>
 	<!--END OF CONTACT US HEADER-->
 
+  <!-- BACK TO TOP -->
+  <a id="top"></a>
+  <div id="back-to-top">
+    <img src="../img/Home/back-to-top.png" id="topImg-home" onclick="topFunction()"></img>
+      <h3 class="bottom-left-home">Top</h3>
+  </div>
+
 	<!-- MEETINGS-->
     <section class="about_descr" style="background-color:#fff; padding-bottom: 50px">
         <div id="features" class="features2 mbr-box mbr-section--relative" style="background-color:#000">
@@ -425,5 +432,23 @@
 			});
 		});
 	</script>
+
+  <script>
+    // When the user scrolls down 50px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+            document.getElementById("back-to-top").style.display = "block";
+        } else {
+            document.getElementById("back-to-top").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        $('html, body').animate({scrollTop:0},'slow');
+    }
+  </script>
 </body>
 </html>
