@@ -1669,14 +1669,14 @@ footer a:hover {
 }
 
 .about-hero {
-    background: url("../img/About/Splash13.jpg") no-repeat;
+    background: url("../img/About/hero1.jpg") no-repeat;
     background-color: black;
     background-size: cover;
     height: 600px;
     width: 100%;
     position: relative;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
 }
 
 
@@ -1839,7 +1839,7 @@ NEW NAV BAR
 BACK TO TOP
 
 --------------------------------- */
-#back-to-top {
+/*#back-to-top {
   display: none;
   position: fixed;
   bottom: 10px;
@@ -1854,9 +1854,9 @@ BACK TO TOP
   border-radius: 4px;
   margin: 20px;
 
-}
+}*/
 
-#back-to-top-home {
+#back-to-top {
   display: none;
   position: fixed;
   bottom: 30px;
@@ -2314,11 +2314,11 @@ FOOTER
 .top-right-separator {
     width: 0;
     position: absolute;
-    top: -180px;
+    top: -130px;
     right: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 180px 100vw;
+    border-width: 0 0 130px 100vw;
     border-color: transparent transparent #fff transparent;
     z-index: 1;
 }
@@ -2577,8 +2577,6 @@ FOOTER
     border:1px solid #D63B80;
     background-color:white;
 }
-
-
 
 
 
@@ -3260,10 +3258,10 @@ FOOTER
 }
 
 .small-title-Events{
-            color: #fff;
+    color: #fff;
     font-weight: 700;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 

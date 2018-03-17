@@ -66,15 +66,21 @@
 	</nav>
 	<!-- End nav bar -->
 
-  	<!-- SPLASH IMAGE  -->
+  <!-- SPLASH IMAGE  -->
 	<div class="about-hero">
 		<div class="section-overlay"></div>
 		<div class="page-title">
 			<h2 style="font-size: 35px;">About Us</h2>
-			<div class="small-title-Events" style="font-size: 15px;">Fiercely Independent College Radio</div>
+			<div class="small-title-Events">Fiercely Independent College Radio</div>
 
 		</div>
 	</div>
+
+  <!-- BACK TO TOP -->
+  <a id="top"></a>
+  <div id="back-to-top">
+    <img src="../img/Home/back-to-top.png" id="topImg-home" onclick="topFunction()"></img>
+  </div>
 
 	<!-- Blurb -->
 	<section class="about_descr" style="background-color:#353789">
@@ -458,5 +464,24 @@
 			});
 		 });
 	</script>
+
+  <script>
+    // When the user scrolls down 50px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 20) {
+            document.getElementById("back-to-top").style.display = "block";
+        } else {
+            document.getElementById("back-to-top").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        $('html, body').animate({scrollTop:0},'slow');
+    }
+  </script>
+
 </body>
 </html>
