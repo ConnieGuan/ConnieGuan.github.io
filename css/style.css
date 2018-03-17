@@ -1958,12 +1958,12 @@ SCHEDULE
 .card-event {
     border-style: solid;
     border-color: #000;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 25px;
     margin: 0px 10px 0px 10px;
     height: 100%;
-    max-height: 800px;
+    max-height: 850px;
     background-color: white;
 }
 
@@ -3201,6 +3201,18 @@ FOOTER
     height: 550px;
     width: 100%;
     position: relative;
+}
+
+.site-hero_About2 {
+    background: url("../img/About/carousel/7.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
 
