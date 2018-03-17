@@ -3203,6 +3203,18 @@ FOOTER
     position: relative;
 }
 
+.site-hero_About2 {
+    background: url("../img/About/carousel/superpunch.jpeg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
 
 .site-hero_2 .page-title {
     position: absolute;
