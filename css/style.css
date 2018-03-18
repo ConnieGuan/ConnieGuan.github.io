@@ -2609,12 +2609,6 @@ FOOTER
 
 
 
-.contact-splash-img {
-    max-width: 100%;
-    max-height: 100%;
-    background-image: 
-}
-
 
 .team-member span {
     font-size: 13px;
@@ -3123,11 +3117,11 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
-    background: url("../img") no-repeat;
+    background: url("../img/Contact/staff2.png") no-repeat;
     background-position: center;
     background-color: black;
-    background-size: 10$ f20%;
-    height: 600px;
+    background-size: cover;
+    height: 650px;
     width: 100%;
     position: relative;
 }
