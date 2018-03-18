@@ -3118,10 +3118,9 @@ FOOTER
 
 .site-hero_2 {
     background: url("../img/Contact/staff2.png") no-repeat;
-    background-position: center;
-    background-color: black;
+    background-position: bottom;
     background-size: cover;
-    height: 650px;
+    height: 700px;
     width: 100%;
     position: relative;
 }
