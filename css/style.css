@@ -1958,18 +1958,26 @@ SCHEDULE
 .card-event {
     border-style: solid;
     border-color: #000;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 25px;
     margin: 0px 10px 0px 10px;
     height: 100%;
-    max-height: 800px;
+    max-height: 850px;
     background-color: white;
 }
 
+
+@media screen and (max-width:650px){
+    .card-contact {
+        margin-top: -50px;
+    }
+}
+
+
 .card-contact {
     padding: 10px;
-    margin: 10px;
+    margin: 50px 10px 10px 10px;
     background-color: white;
 }
 
@@ -2601,12 +2609,6 @@ FOOTER
 
 
 
-.contact-splash-img {
-    max-width: 100%;
-    max-height: 100%;
-    background-image: 
-}
-
 
 .team-member span {
     font-size: 13px;
@@ -3115,11 +3117,10 @@ FOOTER
 -------------------------------- */
 
 .site-hero_2 {
-    background: url("../img") no-repeat;
-    background-position: center;
-    background-color: black;
-    background-size: 10$ f20%;
-    height: 600px;
+    background: url("../img/Contact/staff2.png") no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 700px;
     width: 100%;
     position: relative;
 }
@@ -3201,6 +3202,18 @@ FOOTER
     height: 550px;
     width: 100%;
     position: relative;
+}
+
+.site-hero_About2 {
+    background: url("../img/About/carousel/7.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
 
@@ -3750,7 +3763,7 @@ ul.services-list li{
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
     font-weight: 800px;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 
@@ -3768,7 +3781,7 @@ ul.services-list li{
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: lowercase;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .small-title-contact3{
@@ -3782,7 +3795,7 @@ ul.services-list li{
     color: #00F;;
     font-weight: 500;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: lowercase;
 
 }
