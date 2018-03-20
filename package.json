@@ -1,0 +1,11 @@
+{
+  "name": "ucsd-ksdt",
+  "version": "1.0.0",
+  "description": "UCSD KSDT site",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
