@@ -4036,7 +4036,7 @@ ul.staff-list li{
         display: table;
         height: 100vh;
         width: 100%;
-        background-image: url(../img/Home/homepage-splash.jpg);
+        background-image: url("../img/Home/homepage-splash.jpg");
         /*background-image: url(/Users/Agykbon/Library/Containers/com.apple.Preview/Data/Desktop/rainbow-sound.jpg);*/
 
             background-attachment: fixed;
