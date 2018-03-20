@@ -3051,7 +3051,7 @@ FOOTER
 
 .contact-card {
     border-style: solid;
-    border-color: #000;
+    border-color: #fff;
     border-width: 1px;
     border-radius: 5px;
     padding: 10px;
@@ -3763,7 +3763,7 @@ ul.services-list li{
     font-family: "Cantarell", "Times New Roman", sans-serif;
     text-align: center;
     font-weight: 800px;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
