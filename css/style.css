@@ -3575,6 +3575,7 @@ ul.services-list li{
 } 
 
 
+
 .default-btn-events-fb {
     position: relative;
     display: inline-block;
@@ -3586,7 +3587,6 @@ ul.services-list li{
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
-    color: #D53B80;
 }
 
 .default-btn-events-google {
@@ -3600,7 +3600,6 @@ ul.services-list li{
     margin-right: 25%;
     margin-bottom: 5%;
     font-weight: 400;
-    color: #D53B80;
 }
 
 .default-btn-events-fb i {
@@ -3631,7 +3630,7 @@ ul.services-list li{
     left: 0;
     width: 50%;
     height: 2px;
-    background-color: #ccc;
+    background-color: #d53b80;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
@@ -3663,7 +3662,7 @@ ul.services-list li{
     left: 0;
     width: 50%;
     height: 2px;
-    background-color: #ccc;
+    background-color: #d53b80;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
