@@ -1691,7 +1691,7 @@ footer a:hover {
     width: 100%;
     position: relative;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center bottom;
 }
 
 
@@ -2217,13 +2217,17 @@ FOOTER
 }
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 490px) {
     .features {
         padding: 50px 0 100px 0;
     }
 
     .features2 {
-        padding: 50px 0 100px 0;
+        padding: 50px 0 50px 0;
+    }
+
+    .past-events {
+        display: none;
     }
 }
 
@@ -3146,7 +3150,7 @@ FOOTER
     width: 100%;
     position: relative;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center bottom;
 }
 
 
@@ -3782,12 +3786,25 @@ ul.services-list li{
     text-transform: lowercase;
     font-size: 16px;
 }
+@media only screen and (max-width: 992px){
+    .contact-card-submissions {
+        margin-top: 25px;
+    }
+}
 
 .small-title-contact3{
     color: #000;
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 20px;
+}
+
+.small-meeting-time{
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 0px;
 }
 
 .small-title-contact3 span {
